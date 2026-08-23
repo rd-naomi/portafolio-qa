@@ -1,31 +1,8 @@
 # ASUR API — Casos de Prueba Destacados
 
-## Introducción
-
 Este documento presenta una selección de los casos de prueba más representativos del plan de pruebas de la API del Sistema ASUR.
 
 El objetivo de esta selección es mostrar, de forma resumida, el trabajo realizado en **Quality Assurance y API Testing**, destacando escenarios que requieren validación de reglas de negocio, autenticación, autorización, manejo de errores, integridad de datos y restricciones de seguridad.
-
-El plan completo fue gestionado en **TestLink** y las pruebas de API fueron ejecutadas mediante **Postman**, sobre un backend desarrollado con **Spring Boot**. La suite contempla escenarios positivos y negativos organizados por módulos funcionales. 
-
-
-## Resumen del trabajo
-
-- Diseño y ejecución de casos de prueba para APIs REST.
-- Pruebas manuales utilizando Postman.
-- Gestión y seguimiento de casos mediante TestLink.
-- Validación de códigos de respuesta HTTP.
-- Pruebas de autenticación mediante JWT.
-- Pruebas de autorización según roles.
-- Validación de datos obligatorios e inválidos.
-- Validación de datos duplicados.
-- Pruebas de reglas de negocio.
-- Validación de cambios de estado.
-- Pruebas de restricciones sobre recursos inactivos.
-- Validación de conflictos por solapamiento de horarios.
-- Pruebas de auditoría y control de acceso.
-
-La suite de API cubre módulos como Login, Usuarios, Actividades, Espacios, Reservas, Auditoría y Seguridad. 
 
 ## Casos de prueba destacados
 
