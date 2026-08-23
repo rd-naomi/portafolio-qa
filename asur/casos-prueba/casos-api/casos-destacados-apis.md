@@ -2,229 +2,421 @@
 
 Este documento presenta una selección de los casos de prueba más representativos del plan de pruebas de la API del Sistema ASUR.
 
-El objetivo de esta selección es mostrar, de forma resumida, el trabajo realizado en **Quality Assurance y API Testing**, destacando escenarios que requieren validación de reglas de negocio, autenticación, autorización, manejo de errores, integridad de datos y restricciones de seguridad.
+El objetivo es mostrar, de forma resumida, el trabajo realizado en **Quality Assurance y API Testing**, destacando escenarios relacionados con autenticación, autorización, validaciones, integridad de datos, reglas de negocio, manejo de errores y restricciones de seguridad.
+
+---
 
 ## Casos de prueba destacados
 
-### 1. Autenticación y seguridad
+## 1. Autenticación y Seguridad
 
-#### CP266 — Inicio de sesión exitoso
+### CP1 — Inicio de sesión exitoso
+
+**ID:** CP266
+**Prioridad:** Alta
+**Tipo:** Positivo
 
 **Endpoint:** `POST /api/auth/login`
 
-Valida que un usuario activo pueda autenticarse utilizando credenciales válidas.
+**Objetivo:** Verificar que un usuario activo pueda autenticarse utilizando credenciales válidas.
 
-**Resultado esperado:** `200 OK` y generación de un token JWT válido.
+**Resultado esperado:**
 
----
-
-#### CP267 — Login con credenciales inválidas
-
-Valida el comportamiento del sistema frente a credenciales incorrectas.
-
-**Resultado esperado:** `400 Bad Request`, sin generación de token.
+* Código HTTP: `200 OK`
+* Generación de token JWT válido.
+* Acceso autorizado a los recursos correspondientes.
 
 ---
 
-#### CP268 — Login de usuario inactivo
+### CP2 — Inicio de sesión con credenciales inválidas
 
-Valida que un usuario cuyo estado es `INACTIVO` no pueda autenticarse.
+**ID:** CP267
+**Prioridad:** Alta
+**Tipo:** Negativo
 
-**Resultado esperado:** `401 Unauthorized`.
+**Endpoint:** `POST /api/auth/login`
+
+**Objetivo:** Validar el comportamiento de la API ante credenciales incorrectas.
+
+**Resultado esperado:**
+
+* Código HTTP: `400 Bad Request`
+* No se genera token.
+* El usuario no obtiene acceso a los recursos protegidos.
 
 ---
 
-#### CP271 — Múltiples intentos fallidos / fuerza bruta
+### CP3 — Login de usuario inactivo
 
-Se realizan múltiples intentos consecutivos de autenticación utilizando credenciales incorrectas.
+**ID:** CP268
+**Prioridad:** Alta
+**Tipo:** Seguridad
 
-**Resultado esperado:** el sistema rechaza los intentos y bloquea temporalmente el acceso durante 15 minutos.
+**Endpoint:** `POST /api/auth/login`
+
+**Objetivo:** Verificar que un usuario con estado `INACTIVO` no pueda autenticarse.
+
+**Resultado esperado:**
+
+* Código HTTP: `401 Unauthorized`
+* No se genera token válido.
 
 ---
 
-### 2. Validaciones e integridad de datos
+### CP4 — Protección ante múltiples intentos fallidos
 
-#### CP219 — Registro de usuario con datos inválidos
+**ID:** CP271
+**Prioridad:** Alta
+**Tipo:** Seguridad
+
+**Endpoint:** `POST /api/auth/login`
+
+**Escenario:** Realizar múltiples intentos consecutivos de autenticación utilizando credenciales incorrectas.
+
+**Resultado esperado:**
+
+* Los intentos son rechazados.
+* El sistema bloquea temporalmente el acceso.
+* El bloqueo tiene una duración de 15 minutos según la regla configurada.
+
+---
+
+## 2. Validaciones e Integridad de Datos
+
+### CP5 — Registro de usuario con datos inválidos
+
+**ID:** CP219
+**Prioridad:** Alta
+**Tipo:** Negativo
 
 **Endpoint:** `POST /api/usuarios`
 
-Se envían datos que incumplen las reglas de validación del sistema.
+**Objetivo:** Verificar que la API rechace información que incumpla las reglas de validación.
 
-**Resultado esperado:** `400 Bad Request`, con información sobre los campos inválidos y sin creación del usuario.
+**Resultado esperado:**
 
----
-
-#### CP220 — Registro con campos obligatorios faltantes
-
-Se prueba el comportamiento de la API cuando uno o más campos obligatorios se encuentran vacíos o son `null`.
-
-**Resultado esperado:** `400 Bad Request`, sin modificación de la base de datos.
+* Código HTTP: `400 Bad Request`
+* Se informa el campo o los campos inválidos.
+* El usuario no es creado.
 
 ---
 
-#### CP221 — Registro de usuario duplicado
+### CP6 — Registro con campos obligatorios faltantes
 
-Valida que no puedan registrarse usuarios utilizando información única que ya existe, como documento, email o teléfono.
+**ID:** CP220
+**Prioridad:** Alta
+**Tipo:** Validación
 
-**Resultado esperado:** `409 Conflict`.
+**Endpoint:** `POST /api/usuarios`
+
+**Escenario:** Enviar uno o más campos obligatorios vacíos o con valor `null`.
+
+**Resultado esperado:**
+
+* Código HTTP: `400 Bad Request`
+* Se informa la validación correspondiente.
+* No se modifica la base de datos.
 
 ---
 
-#### CP257 — Modificación con datos duplicados
+### CP7 — Registro de usuario duplicado
+
+**ID:** CP221
+**Prioridad:** Alta
+**Tipo:** Integridad de datos
+
+**Endpoint:** `POST /api/usuarios`
+
+**Escenario:** Intentar registrar un usuario utilizando información que debe ser única y que ya pertenece a otro registro.
+
+**Datos considerados:**
+
+* Documento.
+* Email.
+* Teléfono.
+
+**Resultado esperado:**
+
+* Código HTTP: `409 Conflict`
+* No se crea un registro duplicado.
+
+---
+
+### CP8 — Modificación con datos duplicados
+
+**ID:** CP257
+**Prioridad:** Alta
+**Tipo:** Integridad de datos
 
 **Endpoint:** `PUT /api/usuarios/{id}`
 
-Se intenta modificar un usuario utilizando información que ya pertenece a otro registro.
+**Objetivo:** Verificar que una modificación no permita utilizar información única perteneciente a otro usuario.
 
-**Resultado esperado:** `409 Conflict`, sin modificar los datos existentes.
+**Resultado esperado:**
 
----
-
-### 3. Autorización y control de acceso
-
-#### CP247 — Acceso al listado por usuario no autorizado
-
-Se intenta consultar el listado de usuarios utilizando un usuario con rol Socio o No Socio.
-
-**Resultado esperado:** `403 Forbidden`.
+* Código HTTP: `409 Conflict`
+* Los datos existentes permanecen sin modificaciones.
 
 ---
 
-#### CP256 — Modificación por usuario no autorizado
+## 3. Autorización y Control de Acceso
+
+### CP9 — Acceso a listado por usuario no autorizado
+
+**ID:** CP247
+**Prioridad:** Alta
+**Tipo:** Autorización
+
+**Endpoint:** Consulta del listado de usuarios.
+
+**Escenario:** Intentar acceder al listado utilizando una cuenta con rol Socio o No Socio.
+
+**Resultado esperado:**
+
+* Código HTTP: `403 Forbidden`
+* El recurso no es accesible.
+
+---
+
+### CP10 — Modificación por usuario sin permisos
+
+**ID:** CP256
+**Prioridad:** Alta
+**Tipo:** Autorización
 
 **Endpoint:** `PUT /api/usuarios/{id}`
 
-Se intenta modificar información de un usuario utilizando una cuenta que no posee rol Administrador.
+**Escenario:** Intentar modificar información utilizando una cuenta que no posee rol Administrador.
 
-**Resultado esperado:** `403 Forbidden`.
+**Resultado esperado:**
 
----
-
-#### CP272 — Modificación de datos privados
-
-Se valida que incluso un usuario Administrador no pueda modificar determinados datos privados de otro usuario, como su contraseña.
-
-**Resultado esperado:** `403 Forbidden`.
+* Código HTTP: `403 Forbidden`
+* No se modifica el registro.
 
 ---
 
-### 4. Reglas de negocio
+### CP11 — Modificación de datos privados
 
-#### CP370 — Solapamiento de actividades
+**ID:** CP272
+**Prioridad:** Alta
+**Tipo:** Seguridad
+
+**Objetivo:** Verificar la protección de información privada de otros usuarios.
+
+**Escenario:** Un usuario Administrador intenta modificar datos privados de otro usuario, como su contraseña.
+
+**Resultado esperado:**
+
+* Código HTTP: `403 Forbidden`
+* La información protegida no es modificada.
+
+---
+
+## 4. Reglas de Negocio
+
+### CP12 — Solapamiento de actividades
+
+**ID:** CP370
+**Prioridad:** Alta
+**Tipo:** Regla de negocio
 
 **Endpoint:** `POST /api/actividades`
 
-Se intenta registrar una actividad en un espacio y horario que ya se encuentra ocupado.
+**Escenario:** Intentar registrar una actividad en un espacio y horario que ya se encuentra ocupado.
 
-**Resultado esperado:** `409 Conflict`.
+**Resultado esperado:**
 
-La nueva actividad no debe ser registrada.
+* Código HTTP: `409 Conflict`
+* La actividad no es registrada.
+* El espacio continúa reservado para la actividad existente.
 
 ---
 
-#### CP407 — Solapamiento de reservas
+### CP13 — Solapamiento de reservas
+
+**ID:** CP407
+**Prioridad:** Alta
+**Tipo:** Regla de negocio
 
 **Endpoint:** `POST /api/reservas/confirmar`
 
-Se intenta crear una reserva cuyo horario coincide total o parcialmente con otra reserva o actividad existente.
+**Escenario:** Crear una reserva cuyo horario coincide total o parcialmente con una reserva o actividad existente.
 
-**Resultado esperado:** `409 Conflict`.
+**Resultado esperado:**
 
-No se crea una nueva reserva.
-
----
-
-#### CP411 — Cancelación de una reserva ya cancelada
-
-Se intenta cancelar nuevamente una reserva cuyo estado ya es `CANCELADA`.
-
-**Resultado esperado:** `409 Conflict`.
+* Código HTTP: `409 Conflict`
+* La nueva reserva no es creada.
+* No se genera una superposición de horarios.
 
 ---
 
-### 5. Gestión de permisos
+### CP14 — Cancelación de una reserva ya cancelada
 
-#### CP447 — Vinculación de funcionalidad inactiva
+**ID:** CP411
+**Prioridad:** Alta
+**Tipo:** Validación de estado
+
+**Escenario:** Intentar cancelar nuevamente una reserva cuyo estado ya es `CANCELADA`.
+
+**Resultado esperado:**
+
+* Código HTTP: `409 Conflict`
+* El estado permanece sin cambios.
+
+---
+
+## 5. Gestión de Permisos
+
+### CP15 — Vinculación de funcionalidad inactiva
+
+**ID:** CP447
+**Prioridad:** Alta
+**Tipo:** Regla de negocio
 
 **Endpoint:** `POST /api/permisos/acceso-funcionalidad`
 
-Se intenta asignar a un perfil una funcionalidad cuyo estado es `INACTIVO`.
+**Escenario:** Intentar asignar a un perfil una funcionalidad cuyo estado es `INACTIVO`.
 
-**Resultado esperado:** `422 Unprocessable Entity`.
+**Resultado esperado:**
 
----
-
-#### CP451 — Prevención de vínculos duplicados
-
-Se intenta asociar nuevamente funcionalidades que ya se encuentran vinculadas a un perfil.
-
-**Resultado esperado:** `409 Conflict`.
-
-La operación no debe generar relaciones duplicadas ni modificar los datos existentes.
+* Código HTTP: `422 Unprocessable Entity`
+* La funcionalidad no es vinculada al perfil.
 
 ---
 
-### 6. Auditoría
+### CP16 — Prevención de vínculos duplicados
 
-#### CP282 — Acceso a auditoría por usuario no autorizado
+**ID:** CP451
+**Prioridad:** Alta
+**Tipo:** Integridad de datos
+
+**Escenario:** Intentar asociar nuevamente una funcionalidad que ya se encuentra vinculada a un perfil.
+
+**Resultado esperado:**
+
+* Código HTTP: `409 Conflict`
+* No se crea una relación duplicada.
+* Las relaciones existentes permanecen sin modificaciones.
+
+---
+
+## 6. Auditoría
+
+### CP17 — Acceso a auditoría por usuario no autorizado
+
+**ID:** CP282
+**Prioridad:** Alta
+**Tipo:** Seguridad
 
 **Endpoint:** `GET /api/auditorias/{tipoAuditoria}`
 
-Se intenta consultar información de auditoría utilizando un usuario que no posee permisos administrativos.
+**Escenario:** Intentar consultar información de auditoría utilizando un usuario sin permisos administrativos.
 
-**Resultado esperado:** `403 Forbidden`.
+**Resultado esperado:**
+
+* Código HTTP: `403 Forbidden`
+* La información de auditoría no es expuesta.
 
 ---
 
-#### CP280 — Consulta de auditoría con filtros inválidos
+### CP18 — Consulta de auditoría con filtros inválidos
 
-Se utilizan filtros incorrectos, como fechas con formato inválido o usuarios inexistentes.
+**ID:** CP280
+**Prioridad:** Media
+**Tipo:** Validación
 
-**Resultado esperado:** `400 Bad Request`, con información sobre los parámetros inválidos.
+**Endpoint:** `GET /api/auditorias/{tipoAuditoria}`
+
+**Escenario:** Realizar consultas utilizando parámetros inválidos, por ejemplo:
+
+* Fechas con formato incorrecto.
+* Usuarios inexistentes.
+* Parámetros con valores no permitidos.
+
+**Resultado esperado:**
+
+* Código HTTP: `400 Bad Request`
+* Se informa el parámetro inválido.
+* No se procesa una consulta incorrecta.
 
 ---
 
 ## Cobertura
 
-Los casos seleccionados representan diferentes tipos de pruebas:
+Los casos seleccionados representan diferentes áreas y tipos de pruebas realizadas sobre la API:
 
-| Área | Cobertura |
-|---|---|
-| Autenticación | Login exitoso, credenciales inválidas, usuarios inactivos |
-| Seguridad | Múltiples intentos fallidos y bloqueo temporal |
-| Validación | Campos inválidos y campos obligatorios |
-| Integridad de datos | Duplicados en registros y modificaciones |
-| Autorización | Restricciones por rol |
-| Privacidad | Restricciones sobre datos sensibles |
-| Reglas de negocio | Solapamiento de actividades y reservas |
-| Estados | Baja, reactivación y operaciones sobre estados inválidos |
-| Permisos | Funcionalidades activas, inactivas y relaciones duplicadas |
-| Auditoría | Acceso autorizado, no autorizado y filtros inválidos |
-| HTTP | Validación de códigos `200`, `201`, `400`, `401`, `403`, `404`, `409` y `422` |
+| Área                | Cobertura                                                  |
+| ------------------- | ---------------------------------------------------------- |
+| Autenticación       | Login exitoso, credenciales inválidas y usuarios inactivos |
+| Seguridad           | Bloqueo ante múltiples intentos fallidos                   |
+| Validación          | Datos inválidos y campos obligatorios                      |
+| Integridad de datos | Registros y modificaciones duplicadas                      |
+| Autorización        | Restricciones según rol                                    |
+| Privacidad          | Protección de datos sensibles                              |
+| Reglas de negocio   | Solapamiento de actividades y reservas                     |
+| Estados             | Operaciones sobre estados inválidos                        |
+| Permisos            | Funcionalidades activas, inactivas y relaciones duplicadas |
+| Auditoría           | Acceso autorizado, no autorizado y filtros inválidos       |
+| HTTP                | Validación de respuestas y códigos de error                |
+
+---
+
+## Tipos de validación aplicados
+
+* Validación de campos obligatorios.
+* Validación de formatos.
+* Validación de datos inválidos.
+* Validación de duplicados.
+* Validación de estados.
+* Validación de reglas de negocio.
+* Validación de autorización.
+* Validación de autenticación.
+* Validación de integridad de datos.
+* Validación de manejo de errores HTTP.
+* Validación de restricciones de seguridad.
+
+---
+
+## Patrones de prueba aplicados
+
+1. **Pruebas positivas y negativas:** validación de respuestas ante solicitudes válidas e inválidas.
+2. **Boundary / Edge Cases:** escenarios de límite y condiciones excepcionales.
+3. **Reglas de negocio:** validación de restricciones propias del dominio.
+4. **Autenticación:** validación de acceso mediante credenciales y JWT.
+5. **Autorización:** validación de permisos según rol.
+6. **Integridad de datos:** prevención de duplicados y relaciones inválidas.
+7. **Manejo de errores:** validación de códigos HTTP y respuestas ante solicitudes incorrectas.
+8. **Validación de estados:** comportamiento ante operaciones no permitidas según el estado de la entidad.
+
+---
 
 ## Ejecución de APIs
 
-Además del diseño y gestión de los casos de prueba, se realizaron **dos builds para las APIs** como parte del flujo de trabajo del proyecto.
+Además del diseño y gestión de los casos de prueba, se realizaron **dos ejecuciones sobre las APIs** correspondientes a diferentes builds del sistema.
 
-La ejecución de las pruebas de API se documenta por separado:
+Los resultados detallados de las ejecuciones se documentan por separado.
 
-**[Ver Ejecución de APIs](./asur/ejecucion-pruebas/results_sistema_asur_apis.csv)**
+**[Ver resultados de ejecución de APIs](./ejecucion-pruebas/results_sistema_asur_apis.csv)**
 
-En esa sección se puede consultar el detalle de las ejecuciones realizadas sobre las colecciones de Postman.
+---
 
 ## Herramientas y tecnologías
 
-| Componente | Tecnología |
-|---|---|
-| Backend | Spring Boot |
-| API | REST |
-| Cliente de pruebas | Postman |
-| Gestión de casos | TestLink |
-| Autenticación | JWT |
-| Tipo de ejecución | Manual |
-| Cobertura | Casos positivos, negativos, autorización y reglas de negocio |
+| Componente         | Tecnología                                              |
+| ------------------ | ------------------------------------------------------- |
+| Backend            | Spring Boot                                             |
+| Arquitectura       | REST API                                                |
+| Cliente de pruebas | Postman                                                 |
+| Gestión de casos   | TestLink                                                |
+| Autenticación      | JWT                                                     |
+| Ejecución          | Pruebas manuales                                        |
+| Tipo de pruebas    | Funcionales, integración, seguridad y reglas de negocio |
+
+---
 
 ## Documentación relacionada
 
-- [Ejecución de APIs](./results_sistema_asur_apis.csv)
-- [Plan de pruebas completo](./plan-pruebas-asur.pdf)
+* [Resultados de ejecución de APIs](./ejecucion-pruebas/results_sistema_asur_apis.csv)
+* [Plan de pruebas completo](./plan-pruebas-asur.pdf)
+* Casos de prueba completos.
+* Registro de incidencias.
