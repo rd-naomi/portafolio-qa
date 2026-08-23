@@ -184,7 +184,7 @@ Se utilizan filtros incorrectos, como fechas con formato inválido o usuarios in
 
 ---
 
-## Cobertura demostrada
+## Cobertura
 
 Los casos seleccionados representan diferentes tipos de pruebas:
 
@@ -208,7 +208,7 @@ Además del diseño y gestión de los casos de prueba, se realizaron **dos build
 
 La ejecución de las pruebas de API se documenta por separado:
 
-**[Ver Ejecución de APIs](./ejecucion-pruebas)**
+**[Ver Ejecución de APIs](./asur/ejecucion-pruebas/results_sistema_asur_apis.csv)**
 
 En esa sección se puede consultar el detalle de las ejecuciones realizadas sobre las colecciones de Postman.
 
