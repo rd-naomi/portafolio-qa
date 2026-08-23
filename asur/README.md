@@ -4,6 +4,17 @@ Plan y ejecución de pruebas para la plataforma de gestión institucional de la 
 
 El sistema gestiona usuarios (socios, no socios y administradores), perfiles y funcionalidades, actividades, espacios y reservas, y auditoría de acciones. Este repositorio documenta el trabajo de **Quality Assurance** realizado sobre el Backend (API REST) y la Aplicación Web, en dos ciclos de ejecución (v1.0 y v2.0).
 
+## Contexto / Necesidad que resuelve
+
+Antes de este sistema, ASUR gestionaba su administración de forma manual: registro de socios, organización de actividades y reserva de salones sin una plataforma centralizada, lo que dificultaba el seguimiento de la información, generaba trabajo repetido y hacía más lenta la comunicación con los asociados.
+
+La plataforma busca resolver esa problemática digitalizando y centralizando la gestión institucional, aportando:
+- Registro y mantenimiento ordenado de los datos de los socios.
+- Organización y seguimiento de actividades y eventos (inscripciones, cupos, cancelaciones).
+- Reserva de salones/espacios sin superposición de horarios, con cálculo automático de vencimientos de seña.
+- Control de acceso por roles (socio, no socio, administrador) y auditoría de las acciones críticas.
+- Una interfaz accesible, pensada para la comunidad sorda a la que pertenece la institución.
+
 ## Stack y ambiente
 
 | Componente | Tecnología |
@@ -21,7 +32,7 @@ El sistema gestiona usuarios (socios, no socios y administradores), perfiles y f
 
 ### Plan de pruebas
 Enfoque general, alcance, métricas definidas (cobertura, eficiencia, densidad de defectos), ciclo de vida de pruebas y de defectos, ambientes, criterios de aceptación/rechazo/suspensión.
- [`plan-pruebas-asur.pdf`](./plan-pruebas-asur.pdf)
+[`plan-pruebas-asur.pdf`](./plan-pruebas-asur.pdf)
 
 ### Casos de prueba destacados
 Selección representativa de casos por módulo (autenticación, validaciones, autorización, reglas de negocio, integridad de datos, auditoría), con objetivo, endpoint/escenario y resultado esperado.
@@ -30,7 +41,7 @@ Selección representativa de casos por módulo (autenticación, validaciones, au
 
 > Además de los casos destacados, se diseñaron y documentaron **todos los casos de prueba como evidencia completa** (193 API + 195 Web).
 
-### Particiones de equivalencia y valores límite
+### 🔢 Particiones de equivalencia y valores límite
 Diseño de casos basado en clases válidas/inválidas y condiciones de borde para los campos críticos del sistema (fechas, contraseñas, capacidades, precios, etc.).
 [`particiones-equivalencia-valores-limite.pdf`](./particiones-equivalencia-valores-limite.pdf)
 
