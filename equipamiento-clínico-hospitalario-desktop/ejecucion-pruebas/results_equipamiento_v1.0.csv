@@ -107,14 +107,14 @@ Módulo Equipos/Listado Equipo,CP-243: Visualizar el listado de los equipos como
 Módulo Equipos/Listado Equipo,CP-244: Visualizar el listado de los equipos como usuario ingeniero biomédico.,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:41:02,Equipo QA,,2
 Módulo Equipos/Listado Equipo,CP-245: Visualizar el listado de los equipos como usuario Tecnólogo.,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:41:13,Equipo QA,,2
 Módulo Equipos/Listado Equipo,CP-246: Visualizar el listado de los equipos como usuario técnico,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:41:20,Equipo QA,,2
-Módulo Equipos/Listado Equipo,CP-247: Filtrar por "Nombre de equipo",Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:41:32,Equipo QA,,2
-Módulo Equipos/Listado Equipo,CP-249: Filtrar por "Marca",Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:41:41,Equipo QA,,2
-Módulo Equipos/Listado Equipo,CP-250: Filtrar por "Modelo",Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:41:52,Equipo QA,,2
-Módulo Equipos/Listado Equipo,CP-251: Filtrar por "Numero de serie",Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:08,Equipo QA,,2
-Módulo Equipos/Listado Equipo,CP-252: Filtrar por "Pais de origen",Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:18,Equipo QA,,2
-Módulo Equipos/Listado Equipo,CP-253: Filtrar por "Proveedor",Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:25,Equipo QA,,2
-Módulo Equipos/Listado Equipo,CP-254: Filtrar por "Identificación interna",Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:36,Equipo QA,,2
-Módulo Equipos/Listado Equipo,CP-255: Filtrar por "Ubicación",Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:48,Equipo QA,,2
+Módulo Equipos/Listado Equipo,CP-247: Filtrar por Nombre de equipo,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:41:32,Equipo QA,,2
+Módulo Equipos/Listado Equipo,CP-249: Filtrar por Marca,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:41:41,Equipo QA,,2
+Módulo Equipos/Listado Equipo,CP-250: Filtrar por Modelo,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:41:52,Equipo QA,,2
+Módulo Equipos/Listado Equipo,CP-251: Filtrar por Numero de serie,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:08,Equipo QA,,2
+Módulo Equipos/Listado Equipo,CP-252: Filtrar por Pais de origen,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:18,Equipo QA,,2
+Módulo Equipos/Listado Equipo,CP-253: Filtrar por Proveedor,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:25,Equipo QA,,2
+Módulo Equipos/Listado Equipo,CP-254: Filtrar por Identificación interna,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:36,Equipo QA,,2
+Módulo Equipos/Listado Equipo,CP-255: Filtrar por Ubicación,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:48,Equipo QA,,2
 Módulo Equipos/Listado Equipo,CP-382: Combinar Filtro,Media,1.1.1,Equipo QA,Pasado,2023-11-23 23:42:59,Equipo QA,,2
 Módulo Equipos/Listado Equipo,CP-383: Descargar listado/reporte de Equipos,Baja,1.1.1,Equipo QA,Fallado,2023-11-23 23:39:53,Equipo QA,El sistema no descarga un archivo xls,2
 Módulo Equipos/Baja Equipo,CP-256: Dar de baja un equipo correctamente como usuario administrador,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 23:44:58,Equipo QA,,2
@@ -133,7 +133,7 @@ Módulo Ubicaciones/Ingreso Ubicación,CP-261: Registro de ubicaciones por parte
 Módulo Ubicaciones/Ingreso Ubicación,CP-262: Registro exitoso de una ubicación,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 14:19:25,Equipo QA,,3
 Módulo Ubicaciones/Ingreso Ubicación,CP-263: El sistema notifica al usuario el resultado de su transacción,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 14:19:42,Equipo QA,,3
 Módulo Ubicaciones/Ingreso Ubicación,CP-264: Entradas inválidas para el registro de Ubicación,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 15:10:19,Equipo QA,El sistema no debe permitir el ingreso de una ubicación y debe notificar al usuario como deben ser ingresados los datos.,3
-Módulo Ubicaciones/Ingreso Ubicación,CP-271: Cancelar registro de nueva ubicación,Alta,1.1.1,Equipo QA,Bloqueado,2023-11-24 16:44:39,Equipo QA,"El sistema no tiene un botón ""Cancelar"" en la interfaz de ingreso de ubicación.",1
+Módulo Ubicaciones/Ingreso Ubicación,CP-271: Cancelar registro de nueva ubicación,Alta,1.1.1,Equipo QA,Bloqueado,2023-11-24 16:44:39,Equipo QA,El sistema no tiene un botón Cancelar en la interfaz de ingreso de ubicación.,1
 Módulo Ubicaciones/Modificación de Ubicaciones,CP-272: Modificación exitosa,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 15:50:13,Equipo QA,,3
 Módulo Ubicaciones/Modificación de Ubicaciones,CP-273: Modificación de la ubicación por parte del usuario administrador,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 15:50:57,Equipo QA,,3
 Módulo Ubicaciones/Modificación de Ubicaciones,CP-274: Modificación de la ubicación por parte del usuario auxiliar administrativo,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 15:52:07,Equipo QA,,3
@@ -146,9 +146,9 @@ Módulo Ubicaciones/Modificación de Ubicaciones,CP-280: Modificación de númer
 Módulo Ubicaciones/Modificación de Ubicaciones,CP-281: Modificación de piso,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 15:56:05,Equipo QA,,2
 Módulo Ubicaciones/Modificación de Ubicaciones,CP-282: Modificación de cama,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 15:56:30,Equipo QA,,2
 Módulo Ubicaciones/Modificación de Ubicaciones,CP-283: Modificación de la institución,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 16:39:14,Equipo QA,,2
-Módulo Ubicaciones/Modificación de Ubicaciones,CP-284: Cancelar modificación de ubicación,Alta,1.1.1,Equipo QA,Bloqueado,2023-11-24 16:43:19,Equipo QA,"El sistema no tiene un botón ""Cancelar"" en la interfaz de modificar de ubicación.",1
+Módulo Ubicaciones/Modificación de Ubicaciones,CP-284: Cancelar modificación de ubicación,Alta,1.1.1,Equipo QA,Bloqueado,2023-11-24 16:43:19,Equipo QA,El sistema no tiene un botón Cancelar en la interfaz de modificar de ubicación,1
 Módulo Ubicaciones/Baja Ubicación,CP-285: Baja de Ubicación,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 16:13:05,Equipo QA,,2
-Módulo Ubicaciones/Baja Ubicación,CP-286: Cancelar baja de Ubicación,Alta,1.1.1,Equipo QA,Bloqueado,2023-11-24 16:45:28,Equipo QA,"El sistema no tiene un botón ""Cancelar"" en la interfaz de baja ubicación.",1
+Módulo Ubicaciones/Baja Ubicación,CP-286: Cancelar baja de Ubicación,Alta,1.1.1,Equipo QA,Bloqueado,2023-11-24 16:45:28,Equipo QA,El sistema no tiene un botón Cancelar en la interfaz de baja ubicación,1
 Módulo Ubicaciones/Baja Ubicación,CP-287: Ubicación no disponible,Media,1.1.1,Equipo QA,Pasado,2023-11-24 16:46:41,Equipo QA,,2
 Módulo Ubicaciones/Baja Ubicación,CP-288: Entradas inválidas para el registro de Baja de Ubicación,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 16:56:13,Equipo QA,El sistema permite dar de baja una ubicación con datos no válidos,2
 Módulo Ubicaciones/Baja Ubicación,CP-348: Baja de Ubicación por un usuario administrador,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 16:11:56,Equipo QA,,2
@@ -157,7 +157,7 @@ Módulo Ubicaciones/Baja Ubicación,CP-350: Baja de Ubicación por un usuario in
 Módulo Ubicaciones/Baja Ubicación,CP-351: Baja de Ubicación por un usuario tecnólogo,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 16:09:45,Equipo QA,,2
 Módulo Ubicaciones/Baja Ubicación,CP-352: Baja de Ubicación por un usuario técnico,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 16:08:35,Equipo QA,,2
 Módulo Ubicaciones/Movimiento Equipo,CP-295: Realizar movimiento del equipo,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 18:03:16,Equipo QA,,3
-Módulo Ubicaciones/Movimiento Equipo,CP-296: Cancelar movimiento del equipo,Alta,1.1.1,Equipo QA,Bloqueado,2023-11-24 18:04:27,Equipo QA,"El sistema no tiene un botón ""Cancelar"" en la interfaz de realizar movimientos de un equipo.",1
+Módulo Ubicaciones/Movimiento Equipo,CP-296: Cancelar movimiento del equipo,Alta,1.1.1,Equipo QA,Bloqueado,2023-11-24 18:04:27,Equipo QA,El sistema no tiene un botón Cancelar en la interfaz de realizar movimientos de un equipo,1
 Módulo Ubicaciones/Movimiento Equipo,CP-297: Entradas inválidas para el registro de Movimiento de Equipo,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 18:05:33,Equipo QA,El sistema permite realizar un movimiento de un equipo cuando los datos son inválidos.,3
 Módulo Ubicaciones/Movimiento Equipo,CP-356: Realizar movimiento del equipo por parte de un administrador,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 18:03:07,Equipo QA,,3
 Módulo Ubicaciones/Movimiento Equipo,CP-357: Realizar movimiento del equipo por parte de un auxiliar administrativo,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 18:02:45,Equipo QA,,3
@@ -180,12 +180,12 @@ Módulo Ubicaciones/Listado Movimientos de Equipos,CP-332: Combinar Filtros,Alta
 Módulo Ubicaciones/Listado Movimientos de Equipos,CP-337: Listar por fechas,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 18:23:41,Equipo QA,El sistema no filtra y muestra los movimientos que corresponden a la fecha filtrada.,
 Módulo Ubicaciones/Listado Movimientos de Equipos,CP-384: Filtros incompatibles,Baja,1.1.1,Equipo QA,Fallado,2023-11-24 18:07:15,Equipo QA,El sistema no notifica al usuario sobre que no se encontraron datos coincidentes.,
 Módulo Tipo de Intervención/Registro Tipo de Intervención,CP-338: Ingresar Tipo de intervención con datos válidos,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 01:30:53,Equipo QA,,2
-Módulo Tipo de Intervención/Registro Tipo de Intervención,CP-339: Ingreso de entrada inválida en campo "Tipo de Intervención",Alta,1.1.1,Equipo QA,Fallado,2023-11-24 01:32:41,Equipo QA,,3
+Módulo Tipo de Intervención/Registro Tipo de Intervención,CP-339: Ingreso de entrada inválida en campo Tipo de Intervención,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 01:32:41,Equipo QA,,3
 Módulo Tipo de Intervención/Registro Tipo de Intervención,CP-343: Ingresar Tipo de intervención que ya existe,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 01:34:35,Equipo QA,,3
 Módulo Tipo de Intervención/Listado Tipo de intervención,CP-344: Visualización del listado de Tipo de Intervención,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 01:38:37,Equipo QA,,1
 Módulo Tipo de Intervención/Listado Tipo de intervención,CP-345: Visualización del listado de Tipo de intervención filtrado por tipo,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 01:39:28,Equipo QA,,3
 Módulo Tipo de Intervención/Listado Tipo de intervención,CP-346: Visualización del listado de Tipo de intervención filtrado por estado.,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 01:39:47,Equipo QA,,2
-Módulo Tipo de Intervención/Listado Tipo de intervención,CP-355: Acceso a la página "Listado Tipo de Intervención" por un usuario no autorizado,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 01:46:29,Equipo QA,,5
+Módulo Tipo de Intervención/Listado Tipo de intervención,CP-355: Acceso a la página Listado Tipo de Intervención por un usuario no autorizado,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 01:46:29,Equipo QA,,5
 Módulo Tipo de Intervención/Listado Tipo de intervención,CP-385: Descargar listado/reporte de Tipo de Intervención,Baja,1.1.1,Equipo QA,Pasado,2023-11-24 01:37:29,Equipo QA,,3
 Módulo Tipo de Intervención/Modificar Tipo de intervención,CP-353: Modificación de Tipo de Intervención con datos válidos,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 01:48:33,Equipo QA,,2
 Módulo Tipo de Intervención/Modificar Tipo de intervención,CP-361: Modificación del nombre de Tipo de Intervención,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 01:48:50,Equipo QA,,1
