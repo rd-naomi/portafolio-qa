@@ -24,7 +24,7 @@ Módulo Usuario/Baja Usuario,CP-081: Eliminación (baja lógica) de Usuario por 
 Módulo Usuario/Baja Usuario,CP-082: Eliminación (baja lógica) de Usuario por un Usuario Auxiliar Administrativo,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 15:33:22,Equipo QA,,1
 Módulo Usuario/Baja Usuario,CP-083: Eliminación (baja lógica) de Usuario por un usuario no Administrativo,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 15:31:14,Equipo QA,,1
 Módulo Usuario/Baja Usuario,CP-084: Solicitud de confirmación de eliminación de usuario,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 15:31:42,Equipo QA,,1
-Módulo Usuario/Baja Usuario,CP-085: Actualización del Estado de Usuario a "Eliminado",Media,1.1.1,Equipo QA,Pasado,2023-11-24 15:32:51,Equipo QA,,1
+Módulo Usuario/Baja Usuario,CP-085: Actualización del Estado de Usuario a Eliminado,Media,1.1.1,Equipo QA,Pasado,2023-11-24 15:32:51,Equipo QA,,1
 Módulo Usuario/Baja Usuario,CP-086: Cancelar eliminación de usuario,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 15:34:27,Equipo QA,,1
 Módulo Usuario/Baja Usuario,CP-087: Restricción de Acceso para Usuarios Eliminados,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 15:35:08,Equipo QA,,1
 Módulo Usuario/Baja Usuario,CP-088: Re-Activación de usuario por un Administrador,Alta,1.1.1,Equipo QA,Pasado,2023-11-24 15:35:26,Equipo QA,,1
