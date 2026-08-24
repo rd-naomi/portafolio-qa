@@ -1,6 +1,6 @@
 Suite de Pruebas,Caso de Prueba,Prioridad,Build Versión,Asignado a,Resultado,Fecha,Testeado por,Notas,Duración de la ejecución (min)
 Módulo Usuario/Registro Usuario,CP-001: Registro Exitoso de Usuario,Alta,1.1.1,Equipo QA,Pasado,2023-11-23 22:42:30,Equipo QA,,3
-Módulo Usuario/Registro Usuario,CP-008: Registro de usuario sin completar campo obligatorio "Teléfono de Contacto",Alta,1.1.1,Equipo QA,Fallado,2023-11-24 15:01:19,Equipo QA,,2
+Módulo Usuario/Registro Usuario,CP-008: Registro de usuario sin completar campo obligatorio Teléfono de Contacto,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 15:01:19,Equipo QA,,2
 Módulo Usuario/Registro Usuario,CP-034: Registro inválido de Usuario,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 15:02:05,Equipo QA,,
 Módulo Usuario/Listado Usuario,CP-036: Visualización del listado de usuarios por el administrador,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 15:07:23,Equipo QA,,2
 Módulo Usuario/Listado Usuario,CP-037: Visualización del listado de usuarios por el auxiliar administrativo,Alta,1.1.1,Equipo QA,Fallado,2023-11-24 15:08:11,Equipo QA,,2
