@@ -1,193 +1,193 @@
-Suite de Pruebas,Caso de Prueba,Prioridad,Resultado,Fecha,Duración (min),Notas
-Mantenimiento Hospitalario/Módulo Usuario/Registro Usuario,1: Registro Exitoso de Usuario,Alta,Pasado,2023-11-23 22:42:30,3,
-Mantenimiento Hospitalario/Módulo Usuario/Registro Usuario,8: Registro de usuario sin completar campo obligatorio "Teléfono de Contacto",Alta,Fallado,2023-11-24 15:01:19,2,
-Mantenimiento Hospitalario/Módulo Usuario/Registro Usuario,34: Registro inválido de Usuario,Alta,Fallado,2023-11-24 15:02:05,,
-Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,36: Visualización del listado de usuarios por el administrador,Alta,Fallado,2023-11-24 15:07:23,2,
-Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,37: Visualización del listado de usuarios por el auxiliar administrativo,Alta,Fallado,2023-11-24 15:08:11,2,
-Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,38: Visualización del listado de usuarios por otros perfiles,Alta,Fallado,2023-11-24 15:08:38,1,
-Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,40: Filtrar listado,Media,Pasado,2023-11-24 15:10:06,1,
-Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,46: Filtro de listado incompatible,Baja,Fallado,2023-11-24 15:10:35,1,
-Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,49: Descargar listado/reporte de Usuarios,Baja,Bloqueado,2023-11-24 15:11:06,1,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,67: Modificación de Datos de Usuario por Administrador,Alta,Pasado,2023-11-24 15:11:42,2,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,68: Modificación de Datos de Usuario por Auxiliar Administrativo,Alta,Pasado,2023-11-24 15:12:32,2,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,69: Modificación de Datos de Usuario por otro usuario,Alta,Fallado,2023-11-24 15:13:01,1,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,70: Acceso al Formulario de Modificación de Usuario,Alta,Pasado,2023-11-24 15:13:44,2,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,71: Modificación de datos de Usuario,Alta,Fallado,2023-11-24 15:14:26,2,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,74: Modificación de Contraseña por el Usuario Administrador,Alta,Fallado,2023-11-24 15:15:56,2,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,75: Modificación de Nombre de Usuario por el Usuario Administrador,Alta,Fallado,2023-11-24 15:17:46,2,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,76: Modificación de Contraseña por el Usuario Auxiliar Administrativo,Alta,Fallado,2023-11-24 15:19:47,,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,77: Modificación de Nombre de Usuario por el Usuario Auxiliar Administrativo,Alta,Fallado,2023-11-24 15:22:24,2,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,78: Solicitud de confirmación de la modificación de usuario,Alta,Fallado,2023-11-24 15:23:17,2,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,79: Cancelar modificación de usuario,Alta,Fallado,2023-11-24 15:24:00,1,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,136: Ingresos de datos inválidos para la modificación de datos de Usuario,Alta,Fallado,2023-11-24 15:14:53,2,
-Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,81: Eliminación(baja lógica) de Usuario por un Usuario Administrador,Alta,Pasado,2023-11-24 15:30:29,1,
-Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,82: Eliminación(baja lógica) de Usuario por un Usuario Auxiliar Administrativo,Alta,Pasado,2023-11-24 15:33:22,1,
-Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,83: Eliminación(baja lógica) de Usuario por un usuario no Administrativo,Alta,Fallado,2023-11-24 15:31:14,1,
-Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,84: Solicitud de confirmación de eliminación de usuario,Alta,Pasado,2023-11-24 15:31:42,1,
-Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,85: Actualización del Estado de Usuario a "Eliminado",Media,Pasado,2023-11-24 15:32:51,1,
-Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,86: Cancelar eliminación de usuario,Alta,Pasado,2023-11-24 15:34:27,1,
-Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,87: Restricción de Acceso para Usuarios Eliminados,Alta,Fallado,2023-11-24 15:35:08,1,
-Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,88: Re-Activación de usuario por un Administrador,Alta,Pasado,2023-11-24 15:35:26,1,
-Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,89: Re-Activación de usuario por un Auxiliar Administrativo,Alta,Pasado,2023-11-24 15:35:44,1,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,90: Modificación de Datos propios por Usuario Auxiliar Administrativo,Alta,Pasado,2023-11-24 15:24:32,2,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,91: Modificación de Datos Propios por Usuario Administrador,Media,Pasado,2023-11-24 15:25:25,2,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,92: Modificación de Datos Propios por Usuario Ingeniero Biomédico,Alta,Pasado,2023-11-24 15:25:54,1,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,93: Modificación de Datos Propios por Usuario Tecnólogo,Alta,Pasado,2023-11-24 15:26:42,1,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,94: Modificación de Datos Propios de Usuario por Técnico,Alta,Pasado,2023-11-24 15:27:10,1,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,95: Solicitud de confirmación de la modificación de datos propios,Alta,Fallado,2023-11-24 15:27:50,1,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,96: Modificación de datos propios,Alta,Pasado,2023-11-24 15:28:16,1,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,97: Ingreso de datos inválidos para la modificación,Alta,Pasado,2023-11-24 15:28:55,1,
-Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,370: Cancelar modificación de datos de usuario,Alta,Fallado,2023-11-24 15:29:26,1,
-Mantenimiento Hospitalario/Módulo Usuario/Login de usuario,137: Login exitoso,Alta,Pasado,2023-11-24 14:30:28,2,
-Mantenimiento Hospitalario/Módulo Usuario/Login de usuario,138: Login Incorrecto,Alta,Fallado,2023-11-24 14:33:48,3,
-Mantenimiento Hospitalario/Módulo Usuario/Login de usuario,142: Login de un usuario eliminado,Alta,Bloqueado,2023-11-24 14:38:12,1,
-Mantenimiento Hospitalario/Módulo Usuario/Login de usuario,143: Login de un usuario sin válidar,Alta,Bloqueado,2023-11-24 14:38:21,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,144: Registro de una intervención por parte de un administrador,Alta,Pasado,2023-11-24 00:48:33,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,145: Registro de una intervención por parte de un auxiliar administrativo,Alta,Pasado,2023-11-24 00:49:17,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,146: Registro de una intervención por parte de un Ingeniero Biomédico,Alta,Pasado,2023-11-24 00:50:02,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,147: Registro de una intervención por parte de un Tecnólogo,Alta,Pasado,2023-11-24 00:51:02,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,148: Registro de una intervención por parte de un técnico,Alta,Pasado,2023-11-24 00:51:42,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,149: Registro de intervención exitosa,Alta,Pasado,2023-11-24 00:53:49,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,150: Registro con campos obligatorios vacios,Alta,Fallado,2023-11-24 00:57:57,5,
-Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,151: Entradas inválidas para el registro de una Intervención,Alta,Fallado,2023-11-24 01:01:11,3,
-Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,160: El sistema notifica al usuario el resultado de su transacción,Alta,Pasado,2023-11-24 01:01:26,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,161: Usuario administrador registra el seguimiento de una intervención,Alta,Pasado,2023-11-24 01:06:10,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,162: Usuario auxiliar administrativo registra el seguimiento de una intervención,Alta,Pasado,2023-11-24 01:06:37,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,163: Usuario ingeniero biomédico registra el seguimiento de una intervención,Alta,Pasado,2023-11-24 01:06:46,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,164: Usuario tecnólogo registra el seguimiento de una intervención,Alta,Pasado,2023-11-24 01:07:14,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,165: Usuario técnico registra el seguimiento de una intervención,Alta,Pasado,2023-11-24 01:09:42,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,166: Registrar un seguimiento de intervención con campos obligatorios vacios,Alta,Fallado,2023-11-24 01:11:30,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,167: Entradas inválidas para el registro de seguimiento de una Intervención,Alta,Pasado,2023-11-24 01:12:45,3,
-Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,171: El sistema notifica al usuario el resultado de su transacción,Alta,Fallado,2023-11-24 01:14:24,3,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,172: Generar un informe con un rango de fechas específico,Alta,Pasado,2023-11-24 01:18:22,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,173: Generar un informe con un rango de fechas específico y un identificador de equipo,Alta,Pasado,2023-11-24 01:19:23,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,174: Generar un informe sin un rango de fechas específico,Alta,Pasado,2023-11-24 01:20:16,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,175: Generar un informe sin filtros,Alta,Fallado,2023-11-24 01:21:25,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,178: Fecha desde mayor a fecha hasta,Alta,Fallado,2023-11-24 01:22:28,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,380: Descargar listado/reporte de Intervenciones por fecha,Baja,Pasado,2023-11-24 01:17:51,5,
-Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,176: Ingresar un perfil nuevo como usuario administrador,Alta,Pasado,2023-11-24 02:01:13,,
-Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,177: Ingresar un perfil nuevo como usuario auxiliar administrador,Alta,Pasado,2023-11-24 02:01:33,,
-Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,179: Solicitud de confirmación al ingresar un nuevo perfil,Alta,Fallado,2023-11-24 02:07:30,1,No solicita la confirmación antes de ingresar el perfil
-Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,180: Cancelar el ingreso de un nuevo perfil,Alta,Fallado,2023-11-24 02:12:40,1,no despliega el mensaje de confirmacion
-Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,182: Registro incorrecto,Alta,Pasado,2023-11-24 02:15:10,,
-Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,183: Ingresar un perfil como usuario no administrativo,Alta,Pasado,2023-11-24 02:19:36,,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención,181: Mostrar la cantidad de intervenciones sin filtros,Alta,Pasado,2023-11-24 01:24:46,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención,184: Generar reporte de la cantidad de intervenciones por un tipo específico,Media,Fallado,2023-11-24 01:26:47,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención,187: Generar reporte de la cantidad de intervenciones en un rango de fechas,Alta,Pasado,2023-11-24 01:29:13,2,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención,189: Generar reporte de la cantidad de intervenciones para un tipo específico en un rango de fechas,Alta,Pasado,2023-11-24 01:29:39,1,
-Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención,381: Descargar listado/reporte de Intervenciones por tipo,Baja,Bloqueado,2023-11-24 01:23:10,1,
-Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,190: Visualizar el listado de los perfiles como usuario administrador.,Alta,Pasado,2023-11-24 02:21:49,,
-Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,191: Visualizar el listado de los perfiles como usuario auxiliar administrador.,Alta,Pasado,2023-11-24 02:22:15,,
-Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,192: Acceder a un perfil desde el listado de perfiles como usuario administrador,Alta,Pasado,2023-11-24 02:25:58,,
-Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,193: Acceder a un perfil desde el listado de perfiles como usuario auxiliar administrador,Alta,Pasado,2023-11-24 02:26:19,,
-Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,194: Filtrar listado,Media,Pasado,2023-11-24 02:27:53,,
-Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,195: Filtros incompatibles,Baja,Fallado,2023-11-24 02:30:18,,El filtro no funciona
-Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,379: Descargar listado/reporte de Perfiles,Baja,Fallado,2023-11-24 02:20:14,,no permite exportar el listado
-Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,199: Modificar un perfil desde el listado como usuario administrador.,Alta,Pasado,2023-11-24 02:33:33,,
-Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,200: Modificar un perfil desde el listado como usuario auxiliar administrador.,Alta,Pasado,2023-11-24 02:33:47,,
-Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,201: Mensaje de confirmación al modificar un perfil,Alta,Pasado,2023-11-24 02:34:04,,
-Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,202: Cancelar una modificación,Alta,Fallado,2023-11-24 03:38:34,,
-Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,203: Actualización del listado de perfiles,Alta,Pasado,2023-11-24 02:36:11,,
-Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,378: Modificación de Nombre de Perfil,Alta,Pasado,2023-11-24 02:36:27,,
-Mantenimiento Hospitalario/Módulo Perfiles/Baja Perfil,204: Eliminar un perfil desde el listado como usuario administrador,Alta,Pasado,2023-11-24 02:41:15,,
-Mantenimiento Hospitalario/Módulo Perfiles/Baja Perfil,205: Eliminar un perfil desde el listado como usuario auxiliar administrador,Alta,Pasado,2023-11-24 02:41:36,,
-Mantenimiento Hospitalario/Módulo Perfiles/Baja Perfil,206: Mensaje de confirmación al eliminar un perfil,Alta,Fallado,2023-11-24 02:41:59,,
-Mantenimiento Hospitalario/Módulo Perfiles/Baja Perfil,207: Cancelar una eliminación,Alta,Fallado,2023-11-24 02:42:12,,
-Mantenimiento Hospitalario/Módulo Perfiles/Baja Perfil,208: Reactivar un perfil,Alta,Pasado,2023-11-24 02:42:49,,
-Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,209: Ingresar un equipo como usuario Administrador.,Alta,Pasado,2023-11-23 21:48:18,2,
-Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,210: Ingresar un equipo como usuario Auxiliar Administrativo.,Alta,Pasado,2023-11-23 21:48:36,2,
-Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,211: Ingresar un equipo como usuario Ingeniero biomédico,Alta,Pasado,2023-11-23 21:48:53,2,
-Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,212: Ingresar un equipo como usuario Tecnólogo,Alta,Pasado,2023-11-23 21:49:05,2,
-Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,213: Ingresar un equipo como usuario Tecnico,Alta,Pasado,2023-11-23 21:49:17,2,
-Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,215: Entradas inválidas para el registro de un nuevo Equipo,Alta,Fallado,2023-11-23 22:50:33,2,
-Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,216: Registro exitosa de un Equipo,Alta,Pasado,2023-11-23 22:52:04,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,241: Visualizar el listado de todos los equipos ingresados en el inventario,Alta,Pasado,2023-11-23 23:40:20,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,242: Visualizar el listado de los equipos como usuario administrador.,Alta,Pasado,2023-11-23 23:40:46,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,243: Visualizar el listado de los equipos como usuario  auxiliar administrador.,Alta,Pasado,2023-11-23 23:40:54,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,244: Visualizar el listado de los equipos como usuario ingeniero biomédico.,Alta,Pasado,2023-11-23 23:41:02,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,245: Visualizar el listado de los equipos como usuario Tecnólogo.,Alta,Pasado,2023-11-23 23:41:13,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,246: Visualizar el listado de los equipos como usuario técnico,Alta,Pasado,2023-11-23 23:41:20,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,247: Filtrar por "Nombre de equipo",Alta,Pasado,2023-11-23 23:41:32,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,249: Filtrar por "Marca",Alta,Pasado,2023-11-23 23:41:41,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,250: Filtrar por "Modelo",Alta,Pasado,2023-11-23 23:41:52,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,251: Filtrar por "Numero de serie",Alta,Pasado,2023-11-23 23:42:08,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,252: Filtrar por "Pais de origen",Alta,Pasado,2023-11-23 23:42:18,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,253: Filtrar por "Proveedor",Alta,Pasado,2023-11-23 23:42:25,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,254: Filtrar por "Identificación interna",Alta,Pasado,2023-11-23 23:42:36,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,255: Filtrar por "Ubicación",Alta,Pasado,2023-11-23 23:42:48,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,382: Combinar Filtro,Media,Pasado,2023-11-23 23:42:59,2,
-Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,383: Descargar listado/reporte de Equipos,Baja,Fallado,2023-11-23 23:39:53,2,El sistema no descarga un archivo xls
-Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,256: Dar de baja un equipo correctamente como usuario administrador,Alta,Pasado,2023-11-23 23:44:58,2,
-Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,298: Dar de baja un equipo correctamente como usuario auxiliar administrador,Alta,Pasado,2023-11-23 23:45:19,2,
-Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,300: Dar de baja un equipo correctamente como usuario ingeniero biomédico,Alta,Pasado,2023-11-23 23:45:30,2,
-Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,301: Dar de baja un equipo correctamente como usuario tecnólogo,Alta,Pasado,2023-11-23 23:45:40,2,
-Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,303: Dar de baja un equipo correctamente como usuario técnico,Alta,Pasado,2023-11-23 23:46:08,2,
-Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,306: Formulario de registro baja de equipo,Alta,Pasado,2023-11-23 23:46:42,2,
-Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,308: Entradas inválidas para el registro de Baja de Equipo,Alta,Fallado,2023-11-23 23:49:49,2,
-Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,310: Mensaje de Confirmación Post Baja Exitosa,Alta,Pasado,2023-11-23 23:50:19,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,257: Registro de ubicaciones por parte de un usuario administrador,Alta,Pasado,2023-11-24 14:06:19,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,258: Registro de ubicaciones por parte de un usuario auxiliar administrativo,Alta,Pasado,2023-11-24 14:08:01,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,259: Registro de ubicaciones por parte de un usuario ingeniero biomédico,Alta,Pasado,2023-11-24 14:09:24,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,260: Registro de ubicaciones por parte de un usuario tecnólogo,Alta,Pasado,2023-11-24 14:14:24,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,261: Registro de ubicaciones por parte de un usuario técnico,Alta,Pasado,2023-11-24 14:14:56,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,262: Registro exitosa de una ubicación,Alta,Pasado,2023-11-24 14:19:25,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,263: El sistema notifica al usuario el resultado de su transacción,Alta,Pasado,2023-11-24 14:19:42,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,264: Entradas inválidas para el registro de Ubicación,Alta,Fallado,2023-11-24 15:10:19,3,El sistema no debe permitir el ingreso de una ubicación y debe notificar al usuario como deben ser ingresados los datos.
-Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,271: Cancelar registro de nueva ubicación,Alta,Bloqueado,2023-11-24 16:44:39,1,El sistema no tiene un botón "Cancelar" en la interfaz de ingreso de ubicación.
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,272: Modificación exitosa,Alta,Pasado,2023-11-24 15:50:13,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,273: Modificación de la ubicación por parte del usuario administrador,Alta,Pasado,2023-11-24 15:50:57,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,274: Modificación de la ubicación por parte del usuario auxiliar administrativo,Alta,Pasado,2023-11-24 15:52:07,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,275: Modificación de la ubicación por parte del usuario ingeniero biomédico,Alta,Pasado,2023-11-24 15:52:37,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,276: Modificación de la ubicación por parte del usuario tecnólogo,Alta,Pasado,2023-11-24 15:52:52,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,277: Modificación de la ubicación por parte del usuario técnico,Alta,Pasado,2023-11-24 15:53:07,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,278: Modificación del sector,Alta,Pasado,2023-11-24 15:54:31,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,279: Modificación de nombre,Alta,Pasado,2023-11-24 15:55:07,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,280: Modificación de número,Alta,Pasado,2023-11-24 15:55:34,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,281: Modificación de piso,Alta,Pasado,2023-11-24 15:56:05,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,282: Modificación de cama,Alta,Pasado,2023-11-24 15:56:30,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,283: Modificación de la institución,Alta,Pasado,2023-11-24 16:39:14,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,284: Cancelar modificación de ubicación,Alta,Bloqueado,2023-11-24 16:43:19,1,El sistema no tiene un botón "Cancelar" en la interfaz de modificar de ubicación.
-Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,285: Baja de Ubicación,Alta,Pasado,2023-11-24 16:13:05,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,286: Cancelar baja de Ubicación,Alta,Bloqueado,2023-11-24 16:45:28,1,El sistema no tiene un botón "Cancelar" en la interfaz de baja ubicación.
-Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,287: Ubicación no disponible,Media,Pasado,2023-11-24 16:46:41,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,288: Entradas inválidas para el registro de Baja de Ubicación,Alta,Fallado,2023-11-24 16:56:13,2,El sistema permite dar de baja una ubicación con datos no validos
-Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,348: Baja de Ubicación por un usuario administrador,Alta,Pasado,2023-11-24 16:11:56,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,349: Baja de Ubicación por un usuario auxliar administrativo,Alta,Pasado,2023-11-24 16:10:26,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,350: Baja de Ubicación por un usuario ingeniero biomédico,Alta,Pasado,2023-11-24 16:10:03,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,351: Baja de Ubicación por un usuario tecnólogo,Alta,Pasado,2023-11-24 16:09:45,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,352: Baja de Ubicación por un usuario técnico,Alta,Pasado,2023-11-24 16:08:35,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,295: Realizar movimiento del equipo,Alta,Pasado,2023-11-24 18:03:16,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,296: Cancelar movimiento del equipo,Alta,Bloqueado,2023-11-24 18:04:27,1,El sistema no tiene un botón "Cancelar" en la interfaz de realizar movimientos de un equipo.
-Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,297: Entradas inválidas para el registro de Movimiento de Equipo,Alta,Fallado,2023-11-24 18:05:33,3,El sistema permite realizar un movimiento de un equipo cuando los datos son invalidos.
-Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,356: Realizar movimiento del equipo por parte de un administrador,Alta,Pasado,2023-11-24 18:03:07,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,357: Realizar movimiento del equipo por parte de un auxiliar administrativo,Alta,Pasado,2023-11-24 18:02:45,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,358: Realizar movimiento del equipo por parte de un ingeniero biomédico,Alta,Pasado,2023-11-24 18:02:34,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,359: Realizar movimiento del equipo por parte de un tecnólogo,Alta,Pasado,2023-11-24 18:02:20,3,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,360: Realizar movimiento del equipo por parte de un técnico,Alta,Pasado,2023-11-24 18:02:13,3,
-Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,320: Modificar un equipo desde el listado de equipo como administrador.,Alta,Pasado,2023-11-23 23:43:16,2,
-Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,322: Modificar un equipo desde el listado de equipo como auxiliar administrador.,Alta,Pasado,2023-11-23 23:43:32,2,
-Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,324: Modificar un equipo desde el listado de equipo como Ingeniero biomédico,Alta,Pasado,2023-11-23 23:43:42,2,
-Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,325: Modificar un equipo desde el listado de equipo como Tecnólogo.,Alta,Pasado,2023-11-23 23:43:53,2,
-Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,327: Modificar un equipo desde el listado de equipo como Técnico.,Alta,Pasado,2023-11-23 23:44:03,2,
-Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,329: Modificación de Equipos con datos inválidos,Alta,Fallado,2023-11-23 23:44:45,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,321: Listar Movimiento de Equipo por Equipo,Alta,Pasado,2023-11-24 18:24:33,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,323: Listar Movimiento de Equipo por Identificación de Equipo,Alta,Pasado,2023-11-24 18:24:42,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,326: Listar Movimiento de Equipo por Institución,Alta,Pasado,2023-11-24 18:24:51,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,328: Listar Movimiento de Equipo por Sector,Alta,Pasado,2023-11-24 18:25:02,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,330: Listar Movimiento de Equipo por Usuario,Alta,Pasado,2023-11-24 18:25:13,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,331: Listado por filtros inncompatibles,Alta,Fallado,2023-11-24 18:09:47,2,Aun que no se muestre ningún registro el sistema no notifica al usuario que la institución ingresada para filtrar no existe en el sistema.
-Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,332: Combinar Filtros,Alta,Pasado,2023-11-24 18:15:14,2,
-Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,337: Listar por fechas,Alta,Fallado,2023-11-24 18:23:41,,El sistema no filtra muestra los movimientos que corresponden a la fecha filtrada.
-Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,384: Filtros incompatibles,Baja,Fallado,2023-11-24 18:07:15,,El sistema no notifica al usuario sobre que no se encontraron datos coincidentes.
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Registro Tipo de Intervención,338: Ingresar Tipo de intervencion con datos validos,Alta,Pasado,2023-11-24 01:30:53,2,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Registro Tipo de Intervención,339: Ingreso de entrada inválida en campo "Tipo de Intervención ",Alta,Fallado,2023-11-24 01:32:41,3,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Registro Tipo de Intervención,343: Ingresar Tipo de intervención que ya existe,Alta,Fallado,2023-11-24 01:34:35,3,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Listado Tipo de intervención,344: Visualización del listado de Tipo de Intervención,Alta,Pasado,2023-11-24 01:38:37,1,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Listado Tipo de intervención,345: Visualización del listado de Tipo de intervención filtrado por tipo,Alta,Pasado,2023-11-24 01:39:28,3,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Listado Tipo de intervención,346: Visualización del listado de Tipo de intervención filtrado por estado.,Alta,Pasado,2023-11-24 01:39:47,2,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Listado Tipo de intervención,355: Acceso a la pagina "Listado Tipo de Intervención" por un usuario no autorizado,Alta,Fallado,2023-11-24 01:46:29,5,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Listado Tipo de intervención,385: Descargar listado/reporte de Tipo de Intervención,Baja,Pasado,2023-11-24 01:37:29,3,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Modificar Tipo de intervención,353: Modificación de Tipo de Intervención con datos válidos,Alta,Pasado,2023-11-24 01:48:33,2,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Modificar Tipo de intervención,361: Modificación del nombre de Tipo de Intervención,Alta,Pasado,2023-11-24 01:48:50,1,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Baja Tipo de intervención,362: Baja lógica de Tipo de Intervención con éxito,Alta,Pasado,2023-11-24 01:49:55,2,
-Mantenimiento Hospitalario/Módulo Tipo de Intervención/Baja Tipo de intervención,363: Baja lógica de Tipo de Intervención que está en uso,Alta,Fallado,2023-11-24 01:52:40,3,
+Suite de Pruebas,Caso de Prueba,Prioridad,Build Versión,Asignado a,Resultado,Fecha,Testeado por,Notas,Duración de la ejecución (min)
+Mantenimiento Hospitalario/Módulo Usuario/Registro Usuario,1: Registro Exitoso de Usuario,Alta,1.1.1,,Pasado,2023-11-23 22:42:30,,,3
+Mantenimiento Hospitalario/Módulo Usuario/Registro Usuario,"8: Registro de usuario sin completar campo obligatorio ""Teléfono de Contacto""",Alta,1.1.1,,Fallado,2023-11-24 15:01:19,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Registro Usuario,34: Registro inválido de Usuario,Alta,1.1.1,,Fallado,2023-11-24 15:02:05,,,
+Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,36: Visualización del listado de usuarios por el administrador,Alta,1.1.1,,Fallado,2023-11-24 15:07:23,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,37: Visualización del listado de usuarios por el auxiliar administrativo,Alta,1.1.1,,Fallado,2023-11-24 15:08:11,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,38: Visualización del listado de usuarios por otros perfiles,Alta,1.1.1,,Fallado,2023-11-24 15:08:38,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,40: Filtrar listado,Media,1.1.1,,Pasado,2023-11-24 15:10:06,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,46: Filtro de listado incompatible,Baja,1.1.1,,Fallado,2023-11-24 15:10:35,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Listado Usuario,49: Descargar listado/reporte de Usuarios,Baja,1.1.1,,Bloqueado,2023-11-24 15:11:06,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,67: Modificación de Datos de Usuario por Administrador,Alta,1.1.1,,Pasado,2023-11-24 15:11:42,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,68: Modificación de Datos de Usuario por Auxiliar Administrativo,Alta,1.1.1,,Pasado,2023-11-24 15:12:32,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,69: Modificación de datos de Usuario por otro usuario,Alta,1.1.1,,Fallado,2023-11-24 15:13:01,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,70: Acceso al Formulario de Modificación de Usuario,Alta,1.1.1,,Pasado,2023-11-24 15:13:44,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,71: Modificación de datos de Usuario,Alta,1.1.1,,Fallado,2023-11-24 15:14:26,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,74: Modificación de Contraseña por el Usuario Administrador,Alta,1.1.1,,Fallado,2023-11-24 15:15:56,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,75: Modificación de Nombre de Usuario por el Usuario Administrador,Alta,1.1.1,,Fallado,2023-11-24 15:17:46,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,76: Modificación de Contraseña por el Usuario Auxiliar Administrativo,Alta,1.1.1,,Fallado,2023-11-24 15:19:47,,,
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,77: Modificación de Nombre de Usuario por el Usuario Auxiliar Administrativo,Alta,1.1.1,,Fallado,2023-11-24 15:22:24,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,78: Solicitud de confirmación de la modificación de usuario,Alta,1.1.1,,Fallado,2023-11-24 15:23:17,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,79: Cancelar modificación de usuario,Alta,1.1.1,,Fallado,2023-11-24 15:24:00,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Modificar Usuario,136: Ingresos de datos inválidos para la modificación de datos de Usuario,Alta,1.1.1,,Fallado,2023-11-24 15:14:53,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,81: Eliminación(baja lógica) de Usuario por un Usuario Administrador,Alta,1.1.1,,Pasado,2023-11-24 15:30:29,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,82: Eliminación(baja lógica) de Usuario por un Usuario Auxiliar Administrativo,Alta,1.1.1,,Pasado,2023-11-24 15:33:22,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,83: Eliminación(baja lógica) de Usuario por un usuario no Administrativo,Alta,1.1.1,,Fallado,2023-11-24 15:31:14,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,84: Solicitud de confirmación de eliminación de usuario,Alta,1.1.1,,Pasado,2023-11-24 15:31:42,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,"85: Actualización del Estado de Usuario a ""Eliminado""",Media,1.1.1,,Pasado,2023-11-24 15:32:51,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,86: Cancelar eliminación de usuario,Alta,1.1.1,,Pasado,2023-11-24 15:34:27,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,87: Restricción de Acceso para Usuarios Eliminados,Alta,1.1.1,,Fallado,2023-11-24 15:35:08,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,88: Re-Activación de usuario por un Administrador,Alta,1.1.1,,Pasado,2023-11-24 15:35:26,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Baja Usuario,89: Re-Activación de usuario por un Auxiliar Administrativo,Alta,1.1.1,,Pasado,2023-11-24 15:35:44,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,90: Modificación de Datos propios por Usuario Auxiliar Administrativo,Alta,1.1.1,,Pasado,2023-11-24 15:24:32,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,91: Modificación de Datos Propios por Usuario Administrador,Media,1.1.1,,Pasado,2023-11-24 15:25:25,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,92: Modificación de Datos Propios por Usuario Ingeniero Biomédico,Alta,1.1.1,,Pasado,2023-11-24 15:25:54,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,93: Modificación de Datos Propios por Usuario Tecnólogo,Alta,1.1.1,,Pasado,2023-11-24 15:26:42,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,94: Modificación de Datos Propios de Usuario por Técnico,Alta,1.1.1,,Pasado,2023-11-24 15:27:10,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,95: Solicitud de confirmación de la modificación de datos propios,Alta,1.1.1,,Fallado,2023-11-24 15:27:50,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,96: Modificación de datos propios,Alta,1.1.1,,Pasado,2023-11-24 15:28:16,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,97: Ingreso de datos inválidos para la modificación,Alta,1.1.1,,Pasado,2023-11-24 15:28:55,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Modificar datos propios de Usuario,370: Cancelar modificación de datos de usuario,Alta,1.1.1,,Fallado,2023-11-24 15:29:26,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Login de usuario,137: Login exitoso,Alta,1.1.1,,Pasado,2023-11-24 14:30:28,,,2
+Mantenimiento Hospitalario/Módulo Usuario/Login de usuario,138: Login Incorrecto,Alta,1.1.1,,Fallado,2023-11-24 14:33:48,,,3
+Mantenimiento Hospitalario/Módulo Usuario/Login de usuario,142: Login de un usuario eliminado,Alta,1.1.1,,Bloqueado,2023-11-24 14:38:12,,,1
+Mantenimiento Hospitalario/Módulo Usuario/Login de usuario,143: Login de un usuario sin válidar,Alta,1.1.1,,Bloqueado,2023-11-24 14:38:21,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,144: Registro de una intervención por parte de un administrador,Alta,1.1.1,,Pasado,2023-11-24 00:48:33,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,145: Registro de una intervención por parte de un auxiliar administrativo,Alta,1.1.1,,Pasado,2023-11-24 00:49:17,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,146: Registro de una intervención por parte de un Ingeniero Biomédico,Alta,1.1.1,,Pasado,2023-11-24 00:50:02,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,147: Registro de una intervención por parte de un Tecnólogo,Alta,1.1.1,,Pasado,2023-11-24 00:51:02,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,148: Registro de una intervención por parte de un técnico,Alta,1.1.1,,Pasado,2023-11-24 00:51:42,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,149: Registro de intervención exitosa,Alta,1.1.1,,Pasado,2023-11-24 00:53:49,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,150: Registro con campos obligatorios vacios,Alta,1.1.1,,Fallado,2023-11-24 00:57:57,,,5
+Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,151: Entradas inválidas para el registro de una Intervención,Alta,1.1.1,,Fallado,2023-11-24 01:01:11,,,3
+Mantenimiento Hospitalario/Módulo Intervenciones/Registro de Intervención,160: El sistema notifica al usuario el resultado de su transacción,Alta,1.1.1,,Pasado,2023-11-24 01:01:26,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,161: Usuario administrador registra el seguimiento de una intervención,Alta,1.1.1,,Pasado,2023-11-24 01:06:10,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,162: Usuario auxiliar administrativo registra el seguimiento de una intervención,Alta,1.1.1,,Pasado,2023-11-24 01:06:37,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,163: Usuario ingeniero biomédico registra el seguimiento de una intervención,Alta,1.1.1,,Pasado,2023-11-24 01:06:46,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,164: Usuario tecnólogo registra el seguimiento de una intervención,Alta,1.1.1,,Pasado,2023-11-24 01:07:14,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,165: Usuario técnico registra el seguimiento de una intervención,Alta,1.1.1,,Pasado,2023-11-24 01:09:42,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,166: Registrar un seguimiento de intervención con campos obligatorios vacios,Alta,1.1.1,,Fallado,2023-11-24 01:11:30,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,167: Entradas inválidas para el registro de seguimiento de una Intervención,Alta,1.1.1,,Pasado,2023-11-24 01:12:45,,,3
+Mantenimiento Hospitalario/Módulo Intervenciones/Trabajar Intervención,171: El sistema notifica al usuario el resultado de su transacción,Alta,1.1.1,,Fallado,2023-11-24 01:14:24,,,3
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,172: Generar un informe con un rango de fechas específico,Alta,1.1.1,,Pasado,2023-11-24 01:18:22,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,173: Generar un informe con un rango de fechas específico y un identificador de equipo,Alta,1.1.1,,Pasado,2023-11-24 01:19:23,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,174: Generar un informe sin un rango de fechas específico,Alta,1.1.1,,Pasado,2023-11-24 01:20:16,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,175: Generar un informe sin filtros,Alta,1.1.1,,Fallado,2023-11-24 01:21:25,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,178: Fecha desde mayor a fecha hasta,Alta,1.1.1,,Fallado,2023-11-24 01:22:28,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Fecha,380: Descargar listado/reporte de Intervenciones por fecha,Baja,1.1.1,,Pasado,2023-11-24 01:17:51,,,5
+Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,176: Ingresar un perfil nuevo como usuario administrador,Alta,1.1.1,,Pasado,2023-11-24 02:01:13,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,177: Ingresar un perfil nuevo como usuario auxiliar administrador,Alta,1.1.1,,Pasado,2023-11-24 02:01:33,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,179: Solicitud de confirmación al ingresar un nuevo perfil,Alta,1.1.1,,Fallado,2023-11-24 02:07:30,,No solicita la confirmación antes de ingresar el perfil,1
+Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,180: Cancelar el ingreso de un nuevo perfil,Alta,1.1.1,,Fallado,2023-11-24 02:12:40,,no despliega el mensaje de confirmacion,1
+Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,182: Registro incorrecto,Alta,1.1.1,,Pasado,2023-11-24 02:15:10,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Registro Perfil,183: Ingresar un perfil como usuario no administrativo,Alta,1.1.1,,Pasado,2023-11-24 02:19:36,,,
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención,181: Mostrar la cantidad de intervenciones sin filtros,Alta,1.1.1,,Pasado,2023-11-24 01:24:46,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención,184: Generar reporte de la cantidad de intervenciones por un tipo específico,Media,1.1.1,,Fallado,2023-11-24 01:26:47,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención,187: Generar reporte de la cantidad de intervenciones en un rango de fechas,Alta,1.1.1,,Pasado,2023-11-24 01:29:13,,,2
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención,189: Generar reporte de la cantidad de intervenciones para un tipo específico en un rango de fechas,Alta,1.1.1,,Pasado,2023-11-24 01:29:39,,,1
+Mantenimiento Hospitalario/Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención,381: Descargar listado/reporte de Intervenciones por tipo,Baja,1.1.1,,Bloqueado,2023-11-24 01:23:10,,,1
+Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,190: Visualizar el listado de los perfiles como usuario administrador.,Alta,1.1.1,,Pasado,2023-11-24 02:21:49,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,191: Visualizar el listado de los perfiles como usuario auxiliar administrador.,Alta,1.1.1,,Pasado,2023-11-24 02:22:15,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,192: Acceder a un perfil desde el listado de perfiles como usuario administrador,Alta,1.1.1,,Pasado,2023-11-24 02:25:58,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,193: Acceder a un perfil desde el listado de perfiles como usuario auxiliar administrador,Alta,1.1.1,,Pasado,2023-11-24 02:26:19,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,194: Filtrar listado,Media,1.1.1,,Pasado,2023-11-24 02:27:53,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,195: Filtros incompatibles,Baja,1.1.1,,Fallado,2023-11-24 02:30:18,,El filtro no funciona,
+Mantenimiento Hospitalario/Módulo Perfiles/Listado Perfil,379: Descargar listado/reporte de Perfiles,Baja,1.1.1,,Fallado,2023-11-24 02:20:14,,no permite exportar el listado,
+Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,199: Modificar un perfil desde el listado como usuario administrador.,Alta,1.1.1,,Pasado,2023-11-24 02:33:33,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,200: Modificar un perfil desde el listado como usuario auxiliar administrador.,Alta,1.1.1,,Pasado,2023-11-24 02:33:47,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,201: Mensaje de confirmación al modificar un perfil,Alta,1.1.1,,Pasado,2023-11-24 02:34:04,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,202: Cancelar una modificación,Alta,1.1.1,,Fallado,2023-11-24 03:38:34,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,203: Actualización del listado de perfiles,Alta,1.1.1,,Pasado,2023-11-24 02:36:11,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Modificar Perfil,378: Modificación de Nombre de Perfil,Alta,1.1.1,,Pasado,2023-11-24 02:36:27,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Baja Perfil,204: Eliminar un perfil desde el listado como usuario administrador,Alta,1.1.1,,Pasado,2023-11-24 02:41:15,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Baja Perfil,205: Eliminar un perfil desde el listado como usuario auxiliar administrador,Alta,1.1.1,,Pasado,2023-11-24 02:41:36,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Baja Perfil,206: Mensaje de confirmación al eliminar un perfil,Alta,1.1.1,,Fallado,2023-11-24 02:41:59,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Baja Perfil,207: Cancelar una eliminación,Alta,1.1.1,,Fallado,2023-11-24 02:42:12,,,
+Mantenimiento Hospitalario/Módulo Perfiles/Baja Perfil,208: Reactivar un perfil,Alta,1.1.1,,Pasado,2023-11-24 02:42:49,,,
+Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,209: Ingresar un equipo como usuario Administrador.,Alta,1.1.1,,Pasado,2023-11-23 21:48:18,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,210: Ingresar un equipo como usuario Auxiliar Administrativo.,Alta,1.1.1,,Pasado,2023-11-23 21:48:36,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,211: Ingresar un equipo como usuario Ingeniero biomédico,Alta,1.1.1,,Pasado,2023-11-23 21:48:53,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,212: Ingresar un equipo como usuario Tecnólogo,Alta,1.1.1,,Pasado,2023-11-23 21:49:05,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,213: Ingresar un equipo como usuario Tecnico,Alta,1.1.1,,Pasado,2023-11-23 21:49:17,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,215: Entradas inválidas para el registro de un nuevo Equipo,Alta,1.1.1,,Fallado,2023-11-23 22:50:33,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Registro Equipo,216: Registro exitosa de un Equipo,Alta,1.1.1,,Pasado,2023-11-23 22:52:04,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,241: Visualizar el listado de todos los equipos ingresados en el inventario,Alta,1.1.1,,Pasado,2023-11-23 23:40:20,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,242: Visualizar el listado de los equipos como usuario administrador.,Alta,1.1.1,,Pasado,2023-11-23 23:40:46,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,243: Visualizar el listado de los equipos como usuario  auxiliar administrador.,Alta,1.1.1,,Pasado,2023-11-23 23:40:54,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,244: Visualizar el listado de los equipos como usuario ingeniero biomédico.,Alta,1.1.1,,Pasado,2023-11-23 23:41:02,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,245: Visualizar el listado de los equipos como usuario Tecnólogo.,Alta,1.1.1,,Pasado,2023-11-23 23:41:13,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,246: Visualizar el listado de los equipos como usuario técnico,Alta,1.1.1,,Pasado,2023-11-23 23:41:20,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,"247: Filtrar por ""Nombre de equipo""",Alta,1.1.1,,Pasado,2023-11-23 23:41:32,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,"249: Filtrar por ""Marca""",Alta,1.1.1,,Pasado,2023-11-23 23:41:41,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,"250: Filtrar por ""Modelo""",Alta,1.1.1,,Pasado,2023-11-23 23:41:52,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,"251: Filtrar por ""Numero de serie""",Alta,1.1.1,,Pasado,2023-11-23 23:42:08,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,"252: Filtrar por ""Pais de origen""",Alta,1.1.1,,Pasado,2023-11-23 23:42:18,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,"253: Filtrar por ""Proveedor""",Alta,1.1.1,,Pasado,2023-11-23 23:42:25,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,"254: Filtrar por ""Identificación interna""",Alta,1.1.1,,Pasado,2023-11-23 23:42:36,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,"255: Filtrar por ""Ubicación""",Alta,1.1.1,,Pasado,2023-11-23 23:42:48,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,382: Combinar Filtro,Media,1.1.1,,Pasado,2023-11-23 23:42:59,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Listado Equipo,383: Descargar listado/reporte de Equipos,Baja,1.1.1,,Fallado,2023-11-23 23:39:53,,El sistema no descarga un archivo xls,2
+Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,256: Dar de baja un equipo correctamente como usuario administrador,Alta,1.1.1,,Pasado,2023-11-23 23:44:58,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,298: Dar de baja un equipo correctamente como usuario auxiliar administrador,Alta,1.1.1,,Pasado,2023-11-23 23:45:19,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,300: Dar de baja un equipo correctamente como usuario ingeniero biomédico,Alta,1.1.1,,Pasado,2023-11-23 23:45:30,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,301: Dar de baja un equipo correctamente como usuario tecnólogo,Alta,1.1.1,,Pasado,2023-11-23 23:45:40,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,303: Dar de baja un equipo correctamente como usuario técnico,Alta,1.1.1,,Pasado,2023-11-23 23:46:08,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,306: Formulario de registro baja de equipo,Alta,1.1.1,,Pasado,2023-11-23 23:46:42,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,308: Entradas inválidas para el registro de Baja de Equipo,Alta,1.1.1,,Fallado,2023-11-23 23:49:49,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Baja Equipo,310: Mensaje de Confirmación Post Baja Exitosa,Alta,1.1.1,,Pasado,2023-11-23 23:50:19,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,257: Registro de ubicaciones por parte de un usuario administrador,Alta,1.1.1,,Pasado,2023-11-24 14:06:19,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,258: Registro de ubicaciones por parte de un usuario auxiliar administrativo,Alta,1.1.1,,Pasado,2023-11-24 14:08:01,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,259: Registro de ubicaciones por parte de un usuario ingeniero biomédico,Alta,1.1.1,,Pasado,2023-11-24 14:09:24,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,260: Registro de ubicaciones por parte de un usuario tecnólogo,Alta,1.1.1,,Pasado,2023-11-24 14:14:24,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,261: Registro de ubicaciones por parte de un usuario técnico,Alta,1.1.1,,Pasado,2023-11-24 14:14:56,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,262: Registro exitosa de una ubicación,Alta,1.1.1,,Pasado,2023-11-24 14:19:25,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,263: El sistema notifica al usuario el resultado de su transacción,Alta,1.1.1,,Pasado,2023-11-24 14:19:42,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,264: Entradas inválidas para el registro de Ubicación,Alta,1.1.1,,Fallado,2023-11-24 15:10:19,,El sistema no debe permitir el ingreso de una ubicación y debe notificar al usuario como deben ser ingresados los datos.,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Ingreso Ubicación,271: Cancelar registro de nueva ubicación,Alta,1.1.1,,Bloqueado,2023-11-24 16:44:39,,"El sistema no tiene un botón ""Cancelar"" en la interfaz de ingreso de ubicación.",1
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,272: Modificación exitosa,Alta,1.1.1,,Pasado,2023-11-24 15:50:13,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,273: Modificación de la ubicación por parte del usuario administrador,Alta,1.1.1,,Pasado,2023-11-24 15:50:57,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,274: Modificación de la ubicación por parte del usuario auxiliar administrativo,Alta,1.1.1,,Pasado,2023-11-24 15:52:07,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,275: Modificación de la ubicación por parte del usuario ingeniero biomédico,Alta,1.1.1,,Pasado,2023-11-24 15:52:37,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,276: Modificación de la ubicación por parte del usuario tecnólogo,Alta,1.1.1,,Pasado,2023-11-24 15:52:52,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,277: Modificación de la ubicación por parte del usuario técnico,Alta,1.1.1,,Pasado,2023-11-24 15:53:07,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,278: Modificación del sector,Alta,1.1.1,,Pasado,2023-11-24 15:54:31,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,279: Modificación de nombre,Alta,1.1.1,,Pasado,2023-11-24 15:55:07,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,280: Modificación de número,Alta,1.1.1,,Pasado,2023-11-24 15:55:34,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,281: Modificación de piso,Alta,1.1.1,,Pasado,2023-11-24 15:56:05,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,282: Modificación de cama,Alta,1.1.1,,Pasado,2023-11-24 15:56:30,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,283: Modificación de la institución,Alta,1.1.1,,Pasado,2023-11-24 16:39:14,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Modificación de Ubicaciones,284: Cancelar modificación de ubicación,Alta,1.1.1,,Bloqueado,2023-11-24 16:43:19,,"El sistema no tiene un botón ""Cancelar"" en la interfaz de modificar de ubicación.",1
+Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,285: Baja de Ubicación,Alta,1.1.1,,Pasado,2023-11-24 16:13:05,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,286: Cancelar baja de Ubicación,Alta,1.1.1,,Bloqueado,2023-11-24 16:45:28,,"El sistema no tiene un botón ""Cancelar"" en la interfaz de baja ubicación.",1
+Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,287: Ubicación no disponible,Media,1.1.1,,Pasado,2023-11-24 16:46:41,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,288: Entradas inválidas para el registro de Baja de Ubicación,Alta,1.1.1,,Fallado,2023-11-24 16:56:13,,El sistema permite dar de baja una ubicación con datos no validos,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,348: Baja de Ubicación por un usuario administrador,Alta,1.1.1,,Pasado,2023-11-24 16:11:56,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,349: Baja de Ubicación por un usuario auxliar administrativo,Alta,1.1.1,,Pasado,2023-11-24 16:10:26,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,350: Baja de Ubicación por un usuario ingeniero biomédico,Alta,1.1.1,,Pasado,2023-11-24 16:10:03,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,351: Baja de Ubicación por un usuario tecnólogo,Alta,1.1.1,,Pasado,2023-11-24 16:09:45,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Baja Ubicación,352: Baja de Ubicación por un usuario técnico,Alta,1.1.1,,Pasado,2023-11-24 16:08:35,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,295: Realizar movimiento del equipo,Alta,1.1.1,,Pasado,2023-11-24 18:03:16,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,296: Cancelar movimiento del equipo,Alta,1.1.1,,Bloqueado,2023-11-24 18:04:27,,"El sistema no tiene un botón ""Cancelar"" en la interfaz de realizar movimientos de un equipo.",1
+Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,297: Entradas inválidas para el registro de Movimiento de Equipo,Alta,1.1.1,,Fallado,2023-11-24 18:05:33,,El sistema permite realizar un movimiento de un equipo cuando los datos son invalidos.,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,356: Realizar movimiento del equipo por parte de un administrador,Alta,1.1.1,,Pasado,2023-11-24 18:03:07,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,357: Realizar movimiento del equipo por parte de un auxiliar administrativo,Alta,1.1.1,,Pasado,2023-11-24 18:02:45,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,358: Realizar movimiento del equipo por parte de un ingeniero biomédico,Alta,1.1.1,,Pasado,2023-11-24 18:02:34,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,359: Realizar movimiento del equipo por parte de un tecnólogo,Alta,1.1.1,,Pasado,2023-11-24 18:02:20,,,3
+Mantenimiento Hospitalario/Módulo Ubicaciones/Movimiento Equipo,360: Realizar movimiento del equipo por parte de un técnico,Alta,1.1.1,,Pasado,2023-11-24 18:02:13,,,3
+Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,320: Modificar un equipo desde el listado de equipo como administrador.,Alta,1.1.1,,Pasado,2023-11-23 23:43:16,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,322: Modificar un equipo desde el listado de equipo como auxiliar administrador.,Alta,1.1.1,,Pasado,2023-11-23 23:43:32,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,324: Modificar un equipo desde el listado de equipo como Ingeniero biomédico,Alta,1.1.1,,Pasado,2023-11-23 23:43:42,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,325: Modificar un equipo desde el listado de equipo como Tecnólogo.,Alta,1.1.1,,Pasado,2023-11-23 23:43:53,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,327: Modificar un equipo desde el listado de equipo como Técnico.,Alta,1.1.1,,Pasado,2023-11-23 23:44:03,,,2
+Mantenimiento Hospitalario/Módulo Equipos/Modificar Equipo,329: Modificación de Equipos con datos inválidos,Alta,1.1.1,,Fallado,2023-11-23 23:44:45,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,321: Listar Movimiento de Equipo por Equipo,Alta,1.1.1,,Pasado,2023-11-24 18:24:33,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,323: Listar Movimiento de Equipo por Identificación de Equipo,Alta,1.1.1,,Pasado,2023-11-24 18:24:42,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,326: Listar Movimiento de Equipo por Institución,Alta,1.1.1,,Pasado,2023-11-24 18:24:51,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,328: Listar Movimiento de Equipo por Sector,Alta,1.1.1,,Pasado,2023-11-24 18:25:02,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,330: Listar Movimiento de Equipo por Usuario,Alta,1.1.1,,Pasado,2023-11-24 18:25:13,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,331: Listado por filtros inncompatibles,Alta,1.1.1,,Fallado,2023-11-24 18:09:47,,Aun que no se muestre ningún registro el sistema no notifica al usuario que la institución ingresada para filtrar no existe en el sistema.,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,332: Combinar Filtros,Alta,1.1.1,,Pasado,2023-11-24 18:15:14,,,2
+Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,337: Listar por fechas,Alta,1.1.1,,Fallado,2023-11-24 18:23:41,,El sistema no filtra muestra los movimientos que corresponden a la fecha filtrada.,
+Mantenimiento Hospitalario/Módulo Ubicaciones/Listado Movimientos de Equipos,384: Filtros incompatibles,Baja,1.1.1,,Fallado,2023-11-24 18:07:15,,El sistema no notifica al usuario sobre que no se encontraron datos coincidentes.,
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Registro Tipo de Intervención,338: Ingresar Tipo de intervencion con datos validos,Alta,1.1.1,,Pasado,2023-11-24 01:30:53,,,2
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Registro Tipo de Intervención,"339: Ingreso de entrada inválida en campo ""Tipo de Intervención """,Alta,1.1.1,,Fallado,2023-11-24 01:32:41,,,3
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Registro Tipo de Intervención,343: Ingresar Tipo de intervención que ya existe,Alta,1.1.1,,Fallado,2023-11-24 01:34:35,,,3
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Listado Tipo de intervención,344: Visualización del listado de Tipo de Intervención,Alta,1.1.1,,Pasado,2023-11-24 01:38:37,,,1
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Listado Tipo de intervención,345: Visualización del listado de Tipo de intervención filtrado por tipo,Alta,1.1.1,,Pasado,2023-11-24 01:39:28,,,3
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Listado Tipo de intervención,346: Visualización del listado de Tipo de intervención filtrado por estado.,Alta,1.1.1,,Pasado,2023-11-24 01:39:47,,,2
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Listado Tipo de intervención,"355: Acceso a la pagina ""Listado Tipo de Intervención"" por un usuario no autorizado",Alta,1.1.1,,Fallado,2023-11-24 01:46:29,,,5
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Listado Tipo de intervención,385: Descargar listado/reporte de Tipo de Intervención,Baja,1.1.1,,Pasado,2023-11-24 01:37:29,,,3
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Modificar Tipo de intervención,353: Modificación de Tipo de Intervención con datos válidos,Alta,1.1.1,,Pasado,2023-11-24 01:48:33,,,2
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Modificar Tipo de intervención,361: Modificación del nombre de Tipo de Intervención,Alta,1.1.1,,Pasado,2023-11-24 01:48:50,,,1
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Baja Tipo de intervención,362: Baja lógica de Tipo de Intervención con éxito,Alta,1.1.1,,Pasado,2023-11-24 01:49:55,,,2
+Mantenimiento Hospitalario/Módulo Tipo de Intervención/Baja Tipo de intervención,363: Baja lógica de Tipo de Intervención que está en uso,Alta,1.1.1,,Fallado,2023-11-24 01:52:40,,,3
