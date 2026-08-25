@@ -1,5 +1,4 @@
 | Suite de Pruebas | Caso de Prueba | Prioridad | Build v2.1.0 | Equipo QA | Fecha | Notas | Duración de la ejecución (min) |
-|---|---|---|---|---|---|---|---|
 | Módulo Usuario/Registro Usuario | CP-1: Registro Exitoso de Usuario | Alta | Pasado | Equipo QA | 2023-11-27 15:27:18 | | |
 | Módulo Usuario/Registro Usuario | CP-8: Registro de usuario sin completar campo obligatorio Teléfono de Contacto | Alta | Pasado | Equipo QA | 2023-11-27 15:32:18 | 2 | |
 | Módulo Usuario/Registro Usuario | CP-34: Registro inválido de Usuario | Alta | Pasado | Equipo QA | 2023-11-27 15:32:41 | 2 | |
