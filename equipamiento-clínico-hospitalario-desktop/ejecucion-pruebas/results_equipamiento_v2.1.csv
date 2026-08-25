@@ -1,0 +1,194 @@
+| Suite de Pruebas | Caso de Prueba | Prioridad | Build v2.1.0 | Equipo QA | Fecha | Notas | Duración de la ejecución (min) |
+|---|---|---|---|---|---|---|---|
+| Módulo Usuario/Registro Usuario | CP-1: Registro Exitoso de Usuario | Alta | Pasado | Equipo QA | 2023-11-27 15:27:18 | | |
+| Módulo Usuario/Registro Usuario | CP-8: Registro de usuario sin completar campo obligatorio Teléfono de Contacto | Alta | Pasado | Equipo QA | 2023-11-27 15:32:18 | 2 | |
+| Módulo Usuario/Registro Usuario | CP-34: Registro inválido de Usuario | Alta | Pasado | Equipo QA | 2023-11-27 15:32:41 | 2 | |
+| Módulo Usuario/Listado Usuario | CP-36: Visualización del listado de usuarios por el administrador | Alta | Pasado | Equipo QA | 2023-11-27 15:39:57 | 1 | |
+| Módulo Usuario/Listado Usuario | CP-37: Visualización del listado de usuarios por el auxiliar administrativo | Alta | Pasado | Equipo QA | 2023-11-27 15:40:17 | 1 | |
+| Módulo Usuario/Listado Usuario | CP-38: Visualización del listado de usuarios por otros perfiles | Alta | Pasado | Equipo QA | 2023-11-27 15:40:39 | 1 | |
+| Módulo Usuario/Listado Usuario | CP-40: Filtrar listado | Media | Pasado | Equipo QA | 2023-11-27 15:41:29 | 1 | |
+| Módulo Usuario/Listado Usuario | CP-46: Filtro de listado incompatible | Baja | Pasado | Equipo QA | 2023-11-27 15:42:06 | 2 | |
+| Módulo Usuario/Listado Usuario | CP-49: Descargar listado/reporte de Usuarios | Baja | Bloqueado | Equipo QA | 2023-11-27 15:44:36 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-67: Modificación de Datos de Usuario por Administrador | Alta | Pasado | Equipo QA | 2023-11-27 15:45:26 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-68: Modificación de Datos de Usuario por Auxiliar Administrativo | Alta | Pasado | Equipo QA | 2023-11-27 15:45:53 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-69: Modificación de Datos de Usuario por otro usuario | Alta | Pasado | Equipo QA | 2023-11-27 17:52:57 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-70: Acceso al Formulario de Modificación de Usuario | Alta | Pasado | Equipo QA | 2023-11-27 17:53:27 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-71: Modificación de datos de Usuario | Alta | Pasado | Equipo QA | 2023-11-27 17:53:58 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-74: Modificación de Contraseña por el Usuario Administrador | Alta | Fallado | Equipo QA | 2023-11-27 17:55:21 | 2 | |
+| Módulo Usuario/Modificar Usuario | CP-75: Modificación de Nombre de Usuario por el Usuario Administrador | Alta | Pasado | Equipo QA | 2023-11-27 17:55:58 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-76: Modificación de Contraseña por el Usuario Auxiliar Administrativo | Alta | Fallado | Equipo QA | 2023-11-27 17:57:56 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-77: Modificación de Nombre de Usuario por el Usuario Auxiliar Administrativo | Alta | Pasado | Equipo QA | 2023-11-27 17:58:10 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-78: Solicitud de confirmación de la modificación de usuario | Alta | Pasado | Equipo QA | 2023-11-27 18:07:47 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-79: Cancelar modificación de usuario | Alta | Pasado | Equipo QA | 2023-11-27 18:08:13 | 1 | |
+| Módulo Usuario/Modificar Usuario | CP-136: Ingresos de datos inválidos para la modificación de datos de Usuario | Alta | Pasado | Equipo QA | 2023-11-27 17:54:27 | 1 | |
+| Módulo Usuario/Baja Usuario | CP-81: Eliminación (baja lógica) de Usuario por un Usuario Administrador | Alta | Pasado | Equipo QA | 2023-11-27 18:12:26 | 1 | |
+| Módulo Usuario/Baja Usuario | CP-82: Eliminación (baja lógica) de Usuario por un Usuario Auxiliar Administrativo | Alta | Pasado | Equipo QA | 2023-11-27 18:18:13 | 1 | |
+| Módulo Usuario/Baja Usuario | CP-83: Eliminación (baja lógica) de Usuario por un usuario no Administrativo | Alta | Pasado | Equipo QA | 2023-11-27 18:13:09 | 1 | |
+| Módulo Usuario/Baja Usuario | CP-84: Solicitud de confirmación de eliminación de usuario | Alta | Pasado | Equipo QA | 2023-11-27 18:17:13 | | |
+| Módulo Usuario/Baja Usuario | CP-85: Actualización del Estado de Usuario a Eliminado | Media | Pasado | Equipo QA | 2023-11-27 18:17:51 | 1 | |
+| Módulo Usuario/Baja Usuario | CP-86: Cancelar eliminación de usuario | Alta | Pasado | Equipo QA | 2023-11-27 18:18:34 | 1 | |
+| Módulo Usuario/Baja Usuario | CP-87: Restricción de Acceso para Usuarios Eliminados | Alta | Pasado | Equipo QA | 2023-11-27 18:21:26 | 1 | |
+| Módulo Usuario/Baja Usuario | CP-88: Re-Activación de usuario por un Administrador | Alta | Pasado | Equipo QA | 2023-11-27 18:21:37 | 1 | |
+| Módulo Usuario/Baja Usuario | CP-89: Re-Activación de usuario por un Auxiliar Administrativo | Alta | Pasado | Equipo QA | 2023-11-27 18:21:47 | 1 | |
+| Módulo Usuario/Modificar datos propios de Usuario | CP-90: Modificación de Datos propios por Usuario Auxiliar Administrativo | Alta | Pasado | Equipo QA | 2023-11-27 18:08:34 | 1 | |
+| Módulo Usuario/Modificar datos propios de Usuario | CP-91: Modificación de Datos Propios por Usuario Administrador | Media | Pasado | Equipo QA | 2023-11-27 18:08:47 | 1 | |
+| Módulo Usuario/Modificar datos propios de Usuario | CP-92: Modificación de Datos Propios por Usuario Ingeniero Biomédico | Alta | Pasado | Equipo QA | 2023-11-27 18:09:23 | 1 | |
+| Módulo Usuario/Modificar datos propios de Usuario | CP-93: Modificación de Datos Propios por Usuario Tecnólogo | Alta | Pasado | Equipo QA | 2023-11-27 18:09:30 | 1 | |
+| Módulo Usuario/Modificar datos propios de Usuario | CP-94: Modificación de Datos Propios de Usuario por Técnico | Alta | Pasado | Equipo QA | 2023-11-27 18:09:37 | 1 | |
+| Módulo Usuario/Modificar datos propios de Usuario | CP-95: Solicitud de confirmación de la modificación de datos propios | Alta | Pasado | Equipo QA | 2023-11-27 18:11:14 | 1 | |
+| Módulo Usuario/Modificar datos propios de Usuario | CP-96: Modificación de datos propios | Alta | Pasado | Equipo QA | 2023-11-27 18:11:31 | 1 | |
+| Módulo Usuario/Modificar datos propios de Usuario | CP-97: Ingreso de datos inválidos para la modificación | Alta | Pasado | Equipo QA | 2023-11-27 18:11:47 | | |
+| Módulo Usuario/Modificar datos propios de Usuario | CP-370: Cancelar modificación de datos de usuario | Alta | Pasado | Equipo QA | 2023-11-27 18:12:06 | 2 | |
+| Módulo Usuario/Login de usuario | CP-137: Login exitoso | Alta | Pasado | Equipo QA | 2023-11-24 20:46:49 | 2 | |
+| Módulo Usuario/Login de usuario | CP-138: Login Incorrecto | Alta | Pasado | Equipo QA | 2023-11-24 20:47:18 | 1 | |
+| Módulo Usuario/Login de usuario | CP-142: Login de un usuario eliminado | Alta | Pasado | Equipo QA | 2023-11-24 20:48:54 | 2 | |
+| Módulo Usuario/Login de usuario | CP-143: Login de un usuario sin validar | Alta | Pasado | Equipo QA | 2023-11-24 20:51:20 | 2 | |
+| Módulo Intervenciones/Registro de Intervención | CP-144: Registro de una intervención por parte de un administrador | Alta | Pasado | Equipo QA | 2023-11-24 20:56:00 | 3 | |
+| Módulo Intervenciones/Registro de Intervención | CP-145: Registro de una intervención por parte de un auxiliar administrativo | Alta | Pasado | Equipo QA | 2023-11-24 20:57:04 | 3 | |
+| Módulo Intervenciones/Registro de Intervención | CP-146: Registro de una intervención por parte de un Ingeniero Biomédico | Alta | Pasado | Equipo QA | 2023-11-24 20:57:12 | 3 | |
+| Módulo Intervenciones/Registro de Intervención | CP-147: Registro de una intervención por parte de un Tecnólogo | Alta | Pasado | Equipo QA | 2023-11-24 20:57:22 | 3 | |
+| Módulo Intervenciones/Registro de Intervención | CP-148: Registro de una intervención por parte de un técnico | Alta | Pasado | Equipo QA | 2023-11-24 20:57:44 | 3 | |
+| Módulo Intervenciones/Registro de Intervención | CP-149: Registro de intervención exitosa | Alta | Pasado | Equipo QA | 2023-11-24 20:57:58 | 1 | |
+| Módulo Intervenciones/Registro de Intervención | CP-150: Registro con campos obligatorios vacíos | Alta | Pasado | Equipo QA | 2023-11-24 21:01:18 | 2 | |
+| Módulo Intervenciones/Registro de Intervención | CP-151: Entradas inválidas para el registro de una Intervención | Alta | Pasado | Equipo QA | 2023-11-24 21:03:32 | 3 | |
+| Módulo Intervenciones/Registro de Intervención | CP-160: El sistema notifica al usuario el resultado de su transacción | Alta | Pasado | Equipo QA | 2023-11-24 21:06:51 | 2 | |
+| Módulo Intervenciones/Trabajar Intervención | CP-161: Usuario administrador registra el seguimiento de una intervención | Alta | Pasado | Equipo QA | 2023-11-24 21:09:05 | 2 | |
+| Módulo Intervenciones/Trabajar Intervención | CP-162: Usuario auxiliar administrativo registra el seguimiento de una intervención | Alta | Pasado | Equipo QA | 2023-11-24 21:11:58 | 3 | |
+| Módulo Intervenciones/Trabajar Intervención | CP-163: Usuario ingeniero biomédico registra el seguimiento de una intervención | Alta | Pasado | Equipo QA | 2023-11-24 21:12:48 | 3 | |
+| Módulo Intervenciones/Trabajar Intervención | CP-164: Usuario tecnólogo registra el seguimiento de una intervención | Alta | Pasado | Equipo QA | 2023-11-24 21:18:03 | 2 | |
+| Módulo Intervenciones/Trabajar Intervención | CP-165: Usuario técnico registra el seguimiento de una intervención | Alta | Pasado | Equipo QA | 2023-11-24 21:20:26 | 3 | |
+| Módulo Intervenciones/Trabajar Intervención | CP-166: Registrar un seguimiento de intervención con campos obligatorios vacíos | Alta | Pasado | Equipo QA | 2023-11-24 21:22:26 | 3 | |
+| Módulo Intervenciones/Trabajar Intervención | CP-167: Entradas inválidas para el registro de seguimiento de una Intervención | Alta | Pasado | Equipo QA | 2023-11-24 21:33:34 | 5 | |
+| Módulo Intervenciones/Trabajar Intervención | CP-171: El sistema notifica al usuario el resultado de su transacción | Alta | Pasado | Equipo QA | 2023-11-24 21:33:47 | 2 | |
+| Módulo Intervenciones/Reporte de Intervención por Fecha | CP-172: Generar un informe con un rango de fechas específico | Alta | Pasado | Equipo QA | 2023-11-24 21:40:27 | 2 | |
+| Módulo Intervenciones/Reporte de Intervención por Fecha | CP-173: Generar un informe con un rango de fechas específico y un identificador de equipo | Alta | Pasado | Equipo QA | 2023-11-24 21:40:56 | 3 | |
+| Módulo Intervenciones/Reporte de Intervención por Fecha | CP-174: Generar un informe sin un rango de fechas específico | Alta | Pasado | Equipo QA | 2023-11-24 21:41:19 | 2 | |
+| Módulo Intervenciones/Reporte de Intervención por Fecha | CP-175: Generar un informe sin filtros | Alta | Pasado | Equipo QA | 2023-11-24 21:41:38 | 2 | |
+| Módulo Intervenciones/Reporte de Intervención por Fecha | CP-178: Fecha desde mayor a fecha hasta | Alta | Pasado | Equipo QA | 2023-11-24 21:44:48 | 2 | |
+| Módulo Intervenciones/Reporte de Intervención por Fecha | CP-380: Descargar listado/reporte de Intervenciones por fecha | Baja | Pasado | Equipo QA | 2023-11-24 21:38:02 | 3 | |
+| Módulo Perfiles/Registro Perfil | CP-176: Ingresar un perfil nuevo como usuario administrador | Alta | Pasado | Equipo QA | 2023-11-25 02:03:36 | 1 | |
+| Módulo Perfiles/Registro Perfil | CP-177: Ingresar un perfil nuevo como usuario auxiliar administrador | Alta | Pasado | Equipo QA | 2023-11-25 02:05:57 | | |
+| Módulo Perfiles/Registro Perfil | CP-179: Solicitud de confirmación al ingresar un nuevo perfil | Alta | Pasado | Equipo QA | 2023-11-25 02:06:30 | 1 | |
+| Módulo Perfiles/Registro Perfil | CP-180: Cancelar el ingreso de un nuevo perfil | Alta | Fallado | Equipo QA | 2023-11-25 02:15:50 | No permite cancelar, no da la opción | 1 |
+| Módulo Perfiles/Registro Perfil | CP-182: Registro incorrecto | Alta | Pasado | Equipo QA | 2023-11-25 02:17:11 | 1 | |
+| Módulo Perfiles/Registro Perfil | CP-183: Ingresar un perfil como usuario no administrativo | Alta | Fallado | Equipo QA | 2023-11-25 02:18:42 | | |
+| Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención | CP-181: Mostrar la cantidad de intervenciones sin filtros | Alta | Pasado | Equipo QA | 2023-11-24 21:55:05 | 3 | |
+| Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención | CP-184: Generar reporte de la cantidad de intervenciones por un tipo específico | Media | Pasado | Equipo QA | 2023-11-24 21:55:26 | 2 | |
+| Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención | CP-187: Generar reporte de la cantidad de intervenciones en un rango de fechas | Alta | Pasado | Equipo QA | 2023-11-24 21:55:43 | 2 | |
+| Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención | CP-189: Generar reporte de la cantidad de intervenciones para un tipo específico en un rango de fechas | Alta | Pasado | Equipo QA | 2023-11-24 21:56:16 | 2 | |
+| Módulo Intervenciones/Reporte de Intervención por Tipo de Intervención | CP-381: Descargar listado/reporte de Intervenciones por tipo | Baja | Fallado | Equipo QA | 2023-11-24 21:53:47 | 1 | |
+| Módulo Perfiles/Listado Perfil | CP-190: Visualizar el listado de los perfiles como usuario administrador | Alta | Pasado | Equipo QA | 2023-11-25 02:45:54 | 1 | |
+| Módulo Perfiles/Listado Perfil | CP-191: Visualizar el listado de los perfiles como usuario auxiliar administrador | Alta | Pasado | Equipo QA | 2023-11-25 02:53:10 | 1 | |
+| Módulo Perfiles/Listado Perfil | CP-192: Acceder a un perfil desde el listado de perfiles como usuario administrador | Alta | Pasado | Equipo QA | 2023-11-25 02:54:58 | 2 | |
+| Módulo Perfiles/Listado Perfil | CP-193: Acceder a un perfil desde el listado de perfiles como usuario auxiliar administrador | Alta | Pasado | Equipo QA | 2023-11-25 02:56:04 | 2 | |
+| Módulo Perfiles/Listado Perfil | CP-194: Filtrar listado | Media | Pasado | Equipo QA | 2023-11-25 02:56:25 | 1 | |
+| Módulo Perfiles/Listado Perfil | CP-195: Filtros incompatibles | Baja | Fallado | Equipo QA | 2023-11-25 02:57:14 | No despliega el mensaje. | |
+| Módulo Perfiles/Listado Perfil | CP-379: Descargar listado/reporte de Perfiles | Baja | Pasado | Equipo QA | 2023-11-25 02:20:38 | | |
+| Módulo Perfiles/Modificar Perfil | CP-199: Modificar un perfil desde el listado como usuario administrador | Alta | Pasado | Equipo QA | 2023-11-25 03:01:44 | 2 | |
+| Módulo Perfiles/Modificar Perfil | CP-200: Modificar un perfil desde el listado como usuario auxiliar administrador | Alta | Pasado | Equipo QA | 2023-11-25 03:01:58 | 1 | |
+| Módulo Perfiles/Modificar Perfil | CP-201: Mensaje de confirmación al modificar un perfil | Alta | Pasado | Equipo QA | 2023-11-25 03:05:29 | 1 | |
+| Módulo Perfiles/Modificar Perfil | CP-202: Cancelar una modificación | Alta | Pasado | Equipo QA | 2023-11-25 03:06:13 | Corregido | 1 |
+| Módulo Perfiles/Modificar Perfil | CP-203: Actualización del listado de perfiles | Alta | Pasado | Equipo QA | 2023-11-25 03:06:47 | | |
+| Módulo Perfiles/Modificar Perfil | CP-378: Modificación de Nombre de Perfil | Alta | Pasado | Equipo QA | 2023-11-25 03:07:20 | | |
+| Módulo Perfiles/Baja Perfil | CP-204: Eliminar un perfil desde el listado como usuario administrador | Alta | Pasado | Equipo QA | 2023-11-25 03:07:56 | | |
+| Módulo Perfiles/Baja Perfil | CP-205: Eliminar un perfil desde el listado como usuario auxiliar administrador | Alta | Pasado | Equipo QA | 2023-11-25 03:08:09 | | |
+| Módulo Perfiles/Baja Perfil | CP-206: Mensaje de confirmación al eliminar un perfil | Alta | Pasado | Equipo QA | 2023-11-25 03:08:37 | Corregido | 1 |
+| Módulo Perfiles/Baja Perfil | CP-207: Cancelar una eliminación | Alta | Pasado | Equipo QA | 2023-11-25 03:09:53 | | |
+| Módulo Perfiles/Baja Perfil | CP-208: Reactivar un perfil | Alta | Fallado | Equipo QA | 2023-11-25 03:11:23 | El botón para Re-Activar no se encuentra en la interfaz | 2 |
+| Módulo Equipos/Registro Equipo | CP-209: Ingresar un equipo como usuario Administrador | Alta | Pasado | Equipo QA | 2023-11-24 16:55:45 | 2 | |
+| Módulo Equipos/Registro Equipo | CP-210: Ingresar un equipo como usuario Auxiliar Administrativo | Alta | Pasado | Equipo QA | 2023-11-24 16:55:52 | 2 | |
+| Módulo Equipos/Registro Equipo | CP-211: Ingresar un equipo como usuario Ingeniero biomédico | Alta | Pasado | Equipo QA | 2023-11-24 16:56:03 | 2 | |
+| Módulo Equipos/Registro Equipo | CP-212: Ingresar un equipo como usuario Tecnólogo | Alta | Pasado | Equipo QA | 2023-11-24 16:56:13 | 2 | |
+| Módulo Equipos/Registro Equipo | CP-213: Ingresar un equipo como usuario Técnico | Alta | Pasado | Equipo QA | 2023-11-24 16:56:19 | 2 | |
+| Módulo Equipos/Registro Equipo | CP-215: Entradas inválidas para el registro de un nuevo Equipo | Alta | Pasado | Equipo QA | 2023-11-24 16:56:48 | 2 | |
+| Módulo Equipos/Registro Equipo | CP-216: Registro exitoso de un Equipo | Alta | Pasado | Equipo QA | 2023-11-24 16:50:42 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-241: Visualizar el listado de todos los equipos ingresados en el inventario | Alta | Pasado | Equipo QA | 2023-11-24 16:51:05 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-242: Visualizar el listado de los equipos como usuario administrador | Alta | Pasado | Equipo QA | 2023-11-24 16:51:20 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-243: Visualizar el listado de los equipos como usuario auxiliar administrador | Alta | Pasado | Equipo QA | 2023-11-24 16:51:37 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-244: Visualizar el listado de los equipos como usuario ingeniero biomédico | Alta | Pasado | Equipo QA | 2023-11-24 16:51:42 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-245: Visualizar el listado de los equipos como usuario Tecnólogo | Alta | Pasado | Equipo QA | 2023-11-24 16:51:48 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-246: Visualizar el listado de los equipos como usuario técnico | Alta | Pasado | Equipo QA | 2023-11-24 16:51:55 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-247: Filtrar por Nombre de equipo | Alta | Pasado | Equipo QA | 2023-11-24 16:52:03 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-249: Filtrar por Marca | Alta | Pasado | Equipo QA | 2023-11-24 16:52:07 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-250: Filtrar por Modelo | Alta | Pasado | Equipo QA | 2023-11-24 16:52:14 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-251: Filtrar por Número de serie | Alta | Pasado | Equipo QA | 2023-11-24 16:52:23 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-252: Filtrar por País de origen | Alta | Pasado | Equipo QA | 2023-11-24 16:52:30 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-253: Filtrar por Proveedor | Alta | Pasado | Equipo QA | 2023-11-24 16:52:35 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-254: Filtrar por Identificación interna | Alta | Pasado | Equipo QA | 2023-11-24 16:52:40 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-255: Filtrar por Ubicación | Alta | Pasado | Equipo QA | 2023-11-24 16:52:49 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-382: Combinar Filtro | Media | Pasado | Equipo QA | 2023-11-24 16:52:59 | 2 | |
+| Módulo Equipos/Listado Equipo | CP-383: Descargar listado/reporte de Equipos | Baja | Pasado | Equipo QA | 2023-11-24 16:50:54 | 2 | |
+| Módulo Equipos/Baja Equipo | CP-256: Dar de baja un equipo correctamente como usuario administrador | Alta | Pasado | Equipo QA | 2023-11-24 16:54:19 | 2 | |
+| Módulo Equipos/Baja Equipo | CP-298: Dar de baja un equipo correctamente como usuario auxiliar administrador | Alta | Pasado | Equipo QA | 2023-11-24 16:54:26 | 2 | |
+| Módulo Equipos/Baja Equipo | CP-300: Dar de baja un equipo correctamente como usuario ingeniero biomédico | Alta | Pasado | Equipo QA | 2023-11-24 16:54:35 | 2 | |
+| Módulo Equipos/Baja Equipo | CP-301: Dar de baja un equipo correctamente como usuario tecnólogo | Alta | Pasado | Equipo QA | 2023-11-24 16:54:44 | 2 | |
+| Módulo Equipos/Baja Equipo | CP-303: Dar de baja un equipo correctamente como usuario técnico | Alta | Pasado | Equipo QA | 2023-11-24 16:54:53 | 2 | |
+| Módulo Equipos/Baja Equipo | CP-306: Formulario de registro baja de equipo | Alta | Pasado | Equipo QA | 2023-11-24 16:55:08 | 2 | |
+| Módulo Equipos/Baja Equipo | CP-308: Entradas inválidas para el registro de Baja de Equipo | Alta | Pasado | Equipo QA | 2023-11-24 16:55:23 | 2 | |
+| Módulo Equipos/Baja Equipo | CP-310: Mensaje de Confirmación Post Baja Exitosa | Alta | Pasado | Equipo QA | 2023-11-24 16:55:34 | 2 | |
+| Módulo Ubicaciones/Ingreso Ubicación | CP-257: Registro de ubicaciones por parte de un usuario administrador | Alta | Pasado | Equipo QA | 2023-11-24 20:59:56 | 3 | |
+| Módulo Ubicaciones/Ingreso Ubicación | CP-258: Registro de ubicaciones por parte de un usuario auxiliar administrativo | Alta | Pasado | Equipo QA | 2023-11-24 21:00:17 | 3 | |
+| Módulo Ubicaciones/Ingreso Ubicación | CP-259: Registro de ubicaciones por parte de un usuario ingeniero biomédico | Alta | Pasado | Equipo QA | 2023-11-24 21:03:00 | 3 | |
+| Módulo Ubicaciones/Ingreso Ubicación | CP-260: Registro de ubicaciones por parte de un usuario tecnólogo | Alta | Pasado | Equipo QA | 2023-11-24 21:05:31 | 3 | |
+| Módulo Ubicaciones/Ingreso Ubicación | CP-261: Registro de ubicaciones por parte de un usuario técnico | Alta | Pasado | Equipo QA | 2023-11-24 21:06:08 | 3 | |
+| Módulo Ubicaciones/Ingreso Ubicación | CP-262: Registro exitoso de una ubicación | Alta | Pasado | Equipo QA | 2023-11-24 21:07:10 | 3 | |
+| Módulo Ubicaciones/Ingreso Ubicación | CP-263: El sistema notifica al usuario el resultado de su transacción | Alta | Pasado | Equipo QA | 2023-11-24 21:07:49 | 3 | |
+| Módulo Ubicaciones/Ingreso Ubicación | CP-264: Entradas inválidas para el registro de Ubicación | Alta | Pasado | Equipo QA | 2023-11-24 21:19:47 | 3 | |
+| Módulo Ubicaciones/Ingreso Ubicación | CP-271: Cancelar registro de nueva ubicación | Alta | Bloqueado | Equipo QA | 2023-11-24 21:22:03 | El sistema no tiene un botón Cancelar en la interfaz de ingreso de ubicación. | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-272: Modificación exitosa | Alta | Pasado | Equipo QA | 2023-11-24 21:23:40 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-273: Modificación de la ubicación por parte del usuario administrador | Alta | Pasado | Equipo QA | 2023-11-24 21:23:54 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-274: Modificación de la ubicación por parte del usuario auxiliar administrativo | Alta | Pasado | Equipo QA | 2023-11-24 21:24:24 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-275: Modificación de la ubicación por parte del usuario ingeniero biomédico | Alta | Pasado | Equipo QA | 2023-11-24 21:24:34 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-276: Modificación de la ubicación por parte del usuario tecnólogo | Alta | Pasado | Equipo QA | 2023-11-24 21:24:45 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-277: Modificación de la ubicación por parte del usuario técnico | Alta | Pasado | Equipo QA | 2023-11-24 21:24:58 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-278: Modificación del sector | Alta | Pasado | Equipo QA | 2023-11-24 21:25:24 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-279: Modificación de nombre | Alta | Pasado | Equipo QA | 2023-11-24 21:25:32 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-280: Modificación de número | Alta | Pasado | Equipo QA | 2023-11-24 21:25:41 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-281: Modificación de piso | Alta | Pasado | Equipo QA | 2023-11-24 21:25:52 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-282: Modificación de cama | Alta | Pasado | Equipo QA | 2023-11-24 21:26:05 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-283: Modificación de la institución | Alta | Pasado | Equipo QA | 2023-11-24 21:26:29 | 2 | |
+| Módulo Ubicaciones/Modificación de Ubicaciones | CP-284: Cancelar modificación de ubicación | Alta | Bloqueado | Equipo QA | 2023-11-24 21:27:02 | El sistema no tiene un botón Cancelar en la interfaz de Modificar ubicación. | 1 |
+| Módulo Ubicaciones/Baja Ubicación | CP-285: Baja de Ubicación | Alta | Pasado | Equipo QA | 2023-11-24 21:30:03 | 2 | |
+| Módulo Ubicaciones/Baja Ubicación | CP-286: Cancelar baja de Ubicación | Alta | Bloqueado | Equipo QA | 2023-11-24 21:30:30 | El sistema no tiene un botón Cancelar en la interfaz de baja de ubicación. | 1 |
+| Módulo Ubicaciones/Baja Ubicación | CP-287: Ubicación no disponible | Media | Pasado | Equipo QA | 2023-11-24 21:31:48 | 2 | |
+| Módulo Ubicaciones/Baja Ubicación | CP-288: Entradas inválidas para el registro de Baja de Ubicación | Alta | Pasado | Equipo QA | 2023-11-24 21:38:03 | 2 | |
+| Módulo Ubicaciones/Baja Ubicación | CP-348: Baja de Ubicación por un usuario administrador | Alta | Pasado | Equipo QA | 2023-11-24 21:28:33 | 2 | |
+| Módulo Ubicaciones/Baja Ubicación | CP-349: Baja de Ubicación por un usuario auxiliar administrativo | Alta | Pasado | Equipo QA | 2023-11-24 21:28:21 | 2 | |
+| Módulo Ubicaciones/Baja Ubicación | CP-350: Baja de Ubicación por un usuario ingeniero biomédico | Alta | Pasado | Equipo QA | 2023-11-24 21:28:11 | 2 | |
+| Módulo Ubicaciones/Baja Ubicación | CP-351: Baja de Ubicación por un usuario tecnólogo | Alta | Pasado | Equipo QA | 2023-11-24 21:28:01 | 2 | |
+| Módulo Ubicaciones/Baja Ubicación | CP-352: Baja de Ubicación por un usuario técnico | Alta | Pasado | Equipo QA | 2023-11-24 21:27:50 | 2 | |
+| Módulo Ubicaciones/Movimiento Equipo | CP-295: Realizar movimiento del equipo | Alta | Pasado | Equipo QA | 2023-11-24 17:55:56 | 3 | |
+| Módulo Ubicaciones/Movimiento Equipo | CP-296: Cancelar movimiento del equipo | Alta | Bloqueado | Equipo QA | 2023-11-24 17:56:37 | El sistema no tiene un botón Cancelar en la interfaz de Movimientos de equipos. | 1 |
+| Módulo Ubicaciones/Movimiento Equipo | CP-297: Entradas inválidas para el registro de Movimiento de Equipo | Alta | Pasado | Equipo QA | 2023-11-24 21:46:20 | 3 | |
+| Módulo Ubicaciones/Movimiento Equipo | CP-356: Realizar movimiento del equipo por parte de un administrador | Alta | Pasado | Equipo QA | 2023-11-24 21:42:36 | 2 | |
+| Módulo Ubicaciones/Movimiento Equipo | CP-357: Realizar movimiento del equipo por parte de un auxiliar administrativo | Alta | Pasado | Equipo QA | 2023-11-24 21:42:19 | 2 | |
+| Módulo Ubicaciones/Movimiento Equipo | CP-358: Realizar movimiento del equipo por parte de un ingeniero biomédico | Alta | Pasado | Equipo QA | 2023-11-24 21:42:09 | 2 | |
+| Módulo Ubicaciones/Movimiento Equipo | CP-359: Realizar movimiento del equipo por parte de un tecnólogo | Alta | Pasado | Equipo QA | 2023-11-24 21:41:55 | 2 | |
+| Módulo Ubicaciones/Movimiento Equipo | CP-360: Realizar movimiento del equipo por parte de un técnico | Alta | Pasado | Equipo QA | 2023-11-24 21:41:37 | 2 | |
+| Módulo Equipos/Modificar Equipo | CP-320: Modificar un equipo desde el listado de equipo como administrador | Alta | Pasado | Equipo QA | 2023-11-24 16:53:11 | 2 | |
+| Módulo Equipos/Modificar Equipo | CP-322: Modificar un equipo desde el listado de equipo como auxiliar administrador | Alta | Pasado | Equipo QA | 2023-11-24 16:53:22 | 2 | |
+| Módulo Equipos/Modificar Equipo | CP-324: Modificar un equipo desde el listado de equipo como Ingeniero biomédico | Alta | Pasado | Equipo QA | 2023-11-24 16:53:28 | 2 | |
+| Módulo Equipos/Modificar Equipo | CP-325: Modificar un equipo desde el listado de equipo como Tecnólogo | Alta | Pasado | Equipo QA | 2023-11-24 16:53:37 | 2 | |
+| Módulo Equipos/Modificar Equipo | CP-327: Modificar un equipo desde el listado de equipo como Técnico | Alta | Pasado | Equipo QA | 2023-11-24 16:53:44 | 2 | |
+| Módulo Equipos/Modificar Equipo | CP-329: Modificación de Equipos con datos inválidos | Alta | Pasado | Equipo QA | 2023-11-24 16:54:03 | 2 | |
+| Módulo Ubicaciones/Listado Movimientos de Equipos | CP-321: Listar Movimiento de Equipo por Equipo | Alta | Pasado | Equipo QA | 2023-11-24 22:24:16 | 2 | |
+| Módulo Ubicaciones/Listado Movimientos de Equipos | CP-323: Listar Movimiento de Equipo por Identificación de Equipo | Alta | Pasado | Equipo QA | 2023-11-24 22:24:43 | 2 | |
+| Módulo Ubicaciones/Listado Movimientos de Equipos | CP-326: Listar Movimiento de Equipo por Institución | Alta | Pasado | Equipo QA | 2023-11-24 22:25:03 | 2 | |
+| Módulo Ubicaciones/Listado Movimientos de Equipos | CP-328: Listar Movimiento de Equipo por Sector | Alta | Pasado | Equipo QA | 2023-11-24 22:25:18 | 2 | |
+| Módulo Ubicaciones/Listado Movimientos de Equipos | CP-330: Listar Movimiento de Equipo por Usuario | Alta | Pasado | Equipo QA | 2023-11-24 22:25:29 | 2 | |
+| Módulo Ubicaciones/Listado Movimientos de Equipos | CP-331: Listado por filtros incompatibles | Alta | Fallado | Equipo QA | 2023-11-24 22:26:05 | 2 | |
+| Módulo Ubicaciones/Listado Movimientos de Equipos | CP-332: Combinar Filtros | Alta | Pasado | Equipo QA | 2023-11-24 22:27:23 | 2 | |
+| Módulo Ubicaciones/Listado Movimientos de Equipos | CP-337: Listar por fechas | Alta | Fallado | Equipo QA | 2023-11-24 22:32:03 | El sistema no filtra los movimientos que corresponden a la fecha filtrada. | 2 |
+| Módulo Ubicaciones/Listado Movimientos de Equipos | CP-384: Filtros incompatibles | Baja | Fallado | Equipo QA | 2023-11-24 22:16:35 | El sistema no notifica al usuario que no se encontraron datos coincidentes. | 2 |
+| Módulo Tipo de Intervención/Registro Tipo de Intervención | CP-338: Ingresar Tipo de intervención con datos válidos | Alta | Pasado | Equipo QA | 2023-11-24 21:57:00 | 2 | |
+| Módulo Tipo de Intervención/Registro Tipo de Intervención | CP-339: Ingreso de entrada inválida en campo Tipo de Intervención | Alta | Pasado | Equipo QA | 2023-11-24 22:01:08 | 2 | |
+| Módulo Tipo de Intervención/Registro Tipo de Intervención | CP-343: Ingresar Tipo de intervención que ya existe | Alta | Pasado | Equipo QA | 2023-11-24 22:03:43 | 2 | |
+| Módulo Tipo de Intervención/Listado Tipo de intervención | CP-344: Visualización del listado de Tipo de Intervención | Alta | Pasado | Equipo QA | 2023-11-24 22:05:42 | 2 | |
+| Módulo Tipo de Intervención/Listado Tipo de intervención | CP-345: Visualización del listado de Tipo de intervención filtrado por tipo | Alta | Pasado | Equipo QA | 2023-11-24 22:05:53 | 2 | |
+| Módulo Tipo de Intervención/Listado Tipo de intervención | CP-346: Visualización del listado de Tipo de intervención filtrado por estado | Alta | Pasado | Equipo QA | 2023-11-24 22:06:05 | 2 | |
+| Módulo Tipo de Intervención/Listado Tipo de intervención | CP-355: Acceso a la página Listado Tipo de Intervención por un usuario no autorizado | Alta | Fallado | Equipo QA | 2023-11-25 01:00:34 | 2 | |
+| Módulo Tipo de Intervención/Listado Tipo de intervención | CP-385: Descargar listado/reporte de Tipo de Intervención | Baja | Pasado | Equipo QA | 2023-11-24 22:03:57 | 3 | |
+| Módulo Tipo de Intervención/Modificar Tipo de intervención | CP-353: Modificación de Tipo de Intervención con datos válidos | Alta | Pasado | Equipo QA | 2023-11-24 22:06:45 | 3 | |
+| Módulo Tipo de Intervención/Modificar Tipo de intervención | CP-361: Modificación del nombre de Tipo de Intervención | Alta | Pasado | Equipo QA | 2023-11-24 22:11:48 | 2 | |
+| Módulo Tipo de Intervención/Baja Tipo de intervención | CP-362: Baja lógica de Tipo de Intervención con éxito | Alta | Pasado | Equipo QA | 2023-11-24 22:12:11 | 3 | |
+| Módulo Tipo de Intervención/Baja Tipo de intervención | CP-363: Baja lógica de Tipo de Intervención que está en uso | Alta | Pasado | Equipo QA | 2023-11-24 22:13:34 | 2 | |
