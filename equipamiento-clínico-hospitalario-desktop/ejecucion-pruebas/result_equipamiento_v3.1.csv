@@ -1,6 +1,6 @@
 Suite de Pruebas,Caso de Prueba,Build Versión 3.1.0,Fecha,Notas,Duración de la ejecución (min),[Última Build] Versión 3.1.0,Exec Notes for Latest (created) Build
 Módulo Usuario/Registro Usuario,1:Registro Exitoso de Usuario,Pasado [v1],2023-12-13 12:30:09,,3,Pasado [v1],
-Módulo Usuario/Registro Usuario,8:Registro de usuario sin completar campo obligatorio "Teléfono de Contacto",Pasado [v1],2023-12-13 12:32:54,,2,Pasado [v1],
+Módulo Usuario/Registro Usuario,8:Registro de usuario sin completar campo obligatorio Teléfono de Contacto,Pasado [v1],2023-12-13 12:32:54,,2,Pasado [v1],
 Módulo Usuario/Registro Usuario,34:Registro inválido de Usuario,Pasado [v1],2023-12-13 12:33:04,,3,Pasado [v1],
 Módulo Usuario/Listado Usuario,36:Visualización del listado de usuarios por el administrador,Pasado [v1],2023-12-13 12:46:49,,5,Pasado [v1],
 Módulo Usuario/Listado Usuario,37:Visualización del listado de usuarios por el auxiliar administrativo,Pasado [v1],2023-12-13 12:47:07,,2,Pasado [v1],
