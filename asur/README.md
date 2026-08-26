@@ -87,7 +87,7 @@ El proceso de pruebas tuvo como principales objetivos:
 
 Documento que define el enfoque general de testing, alcance, estrategia, métricas, ciclo de vida de las pruebas y defectos, ambientes y criterios de aceptación, rechazo y suspensión.
 
-[📄 Ver Plan de Pruebas](./plan-pruebas/plan-pruebas-asur.pdf)
+[📄 Ver Plan de Pruebas](./plan-pruebas/plan-prueba-asur.pdf)
 
 ---
 
