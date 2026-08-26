@@ -20,7 +20,6 @@ Durante las ejecuciones se registraron **73 defectos**.
 | Gravedad menor        |        35 |
 | Gravedad ajuste       |        27 |
 
-> Los estados se consideran según el campo **Estado** del registro de defectos.
 
 ## Defectos destacados
 
