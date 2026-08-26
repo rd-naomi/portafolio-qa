@@ -97,7 +97,7 @@ Se diseñaron casos para cubrir las principales funcionalidades del sistema, inc
 
 ### Casos destacados
 
-* [🔹 Casos destacados — API](./casos-prueba/casos-api/casos-destacados-api.md)
+* [🔹 Casos destacados — API](./casos-prueba/casos-api/casos-destacados-apis.md)
 * [🔹 Casos destacados — Web](./casos-prueba/casos-web/casos-destacados-web.md)
 
 Además de los casos destacados, se documentaron **388 casos de prueba completos**:
@@ -107,7 +107,7 @@ Además de los casos destacados, se documentaron **388 casos de prueba completos
 
 La documentación completa se encuentra disponible en el PDF correspondiente.
 
-[📄 Ver casos de prueba completos de APIs](./casos-prueba/casos-api/casos-prueba-api.pdf)
+[📄 Ver casos de prueba completos de APIs](./casos-prueba/casos-api/casos-prueba-apis.pdf)
 [📄 Ver casos de prueba completos de WEB](./casos-prueba/casos-web/casos-prueba-web.pdf)
 
 ---
@@ -152,6 +152,7 @@ Se realizaron ejecuciones independientes para API REST y aplicación Web, regist
 
 ### Resultados de ejecución
 
+* [📊 Resumen de ejecición](./ejecucion-pruebas/README.md)
 * [📊 Resultados — API](./ejecucion-pruebas/results_sistema_asur_apis.csv)
 * [📊 Resultados — Web](./ejecucion-pruebas/results_sistema_asur_web.csv)
 
