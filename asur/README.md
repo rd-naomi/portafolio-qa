@@ -19,7 +19,7 @@ La plataforma permite gestionar:
 * Reglas de negocio relacionadas con reservas y vencimientos.
 * Auditoría de acciones realizadas en el sistema.
 
-El sistema fue desarrollado como proyecto final académico (**PFT-DZ-GRUPO06-2025**).
+El sistema fue desarrollado como proyecto final académico.
 
 ---
 
