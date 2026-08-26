@@ -226,5 +226,5 @@ Esto permitió utilizar el segundo ciclo como una instancia de verificación de 
 
 ## Evidencias
 
-- [Ejecuciones de APIs](./ejecucion-apis.md)
-- [Ejecuciones Web](./ejecucion-web.md)
+- [Ejecuciones de APIs](./results_sistema_asur_apis.csv)
+- [Ejecuciones Web](./results_sistema_asur_web.csv)
