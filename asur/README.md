@@ -228,8 +228,6 @@ El sistema ASUR fue desarrollado separando sus componentes de Backend y Frontend
 * [💻 Repositorio Backend ASUR](https://github.com/rd-naomi/asur-institutional-management-backend.git)
 * [🌐 Repositorio Frontend ASUR](https://github.com/rd-naomi/asur-institutional-management-frontend.git)
 
-> Los enlaces anteriores pueden utilizarse para consultar el código fuente del proyecto.
-
 ---
 
 ## Resultado
