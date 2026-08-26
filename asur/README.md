@@ -97,8 +97,8 @@ Se diseñaron casos para cubrir las principales funcionalidades del sistema, inc
 
 ### Casos destacados
 
-* [🔹 Casos destacados — API](./casos-de-prueba/casos-api/casos-destacados-api.md)
-* [🔹 Casos destacados — Web](./casos-de-prueba/casos-web/casos-destacados-web.md)
+* [🔹 Casos destacados — API](./casos-prueba/casos-api/casos-destacados-api.md)
+* [🔹 Casos destacados — Web](./casos-prueba/casos-web/casos-destacados-web.md)
 
 Además de los casos destacados, se documentaron **388 casos de prueba completos**:
 
@@ -107,8 +107,8 @@ Además de los casos destacados, se documentaron **388 casos de prueba completos
 
 La documentación completa se encuentra disponible en el PDF correspondiente.
 
-[📄 Ver casos de prueba completos de APIs](./casos-de-prueba/casos-api/casos-prueba-api.pdf)
-[📄 Ver casos de prueba completos de WEB](./casos-de-prueba/casos-web/casos-prueba-web.pdf)
+[📄 Ver casos de prueba completos de APIs](./casos-prueba/casos-api/casos-prueba-api.pdf)
+[📄 Ver casos de prueba completos de WEB](./casos-prueba/casos-web/casos-prueba-web.pdf)
 
 ---
 
@@ -123,7 +123,7 @@ Entre las técnicas utilizadas se encuentran:
 
 Estas técnicas se aplicaron sobre campos y reglas críticas del sistema, incluyendo fechas, contraseñas, capacidades, precios y otros datos sujetos a restricciones.
 
-[📄 Ver diseño de pruebas](./diseño-de-pruebas/README.md)
+[📄 Ver diseño de pruebas](./diseño-pruebas/README.md)
 
 ---
 
@@ -173,9 +173,9 @@ La matriz contempla:
 
 [📊 Ver resumen matriz de riesgos](./gestion-riesgos/resumen-matriz-riesgos.csv)
 
-[📊 Ver matriz de riesgos](./gestion-riesgos/matriz-riesgos-asur.csv)
+[📊 Ver matriz de riesgos](./gestion-riesgos/matriz-riesgos-ASUR.csv)
 
-[📄 Ver matriz de riesgos en PDF](./gestion-de-riesgos/matriz-riesgos.pdf)
+[📄 Ver matriz de riesgos en PDF](./gestion-riesgos/matriz-riesgos-riesgos.pdf)
 
 ---
 
@@ -183,7 +183,7 @@ La matriz contempla:
 
 El informe final reúne los principales resultados del proceso de QA, incluyendo métricas de ejecución, defectos encontrados por release y conclusiones sobre la calidad del producto.
 
-[📄 Ver informe final de pruebas](./informe-de-pruebas/informe-final-pruebas.pdf)
+[📄 Ver informe final de pruebas](./informe-pruebas/informe-final-pruebas-asur.pdf)
 
 ---
 
