@@ -1,4 +1,4 @@
-# Sistema ASUR — Proyecto de QA / Testing
+# Sistema de Gestión Institucional para ASUR — Proyecto de QA / Testing
 
 Proyecto académico de **Quality Assurance** enfocado en la planificación, diseño, ejecución y análisis de pruebas sobre una plataforma de gestión institucional para la **Asociación de Sordos del Uruguay (ASUR)**.
 
