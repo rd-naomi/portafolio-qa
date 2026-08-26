@@ -145,7 +145,7 @@ Se contemplaron escenarios:
 - Integración entre módulos.
 - Regresión de funcionalidades corregidas.
 
-[📄 Ver casos de prueba](./casos-prueba/casos-prueba-destacados.md)
+[📄 Ver casos de prueba](./casos-de-prueba/casos-prueba-destacados.md)
 
 ---
 
