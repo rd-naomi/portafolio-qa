@@ -2,7 +2,7 @@
 
 Este documento presenta una selección de los casos de prueba más representativos del plan de pruebas de la API del Sistema ASUR.
 
-El objetivo es mostrar, de forma resumida, el trabajo realizado en **Quality Assurance y API Testing**, destacando escenarios relacionados con autenticación, autorización, validaciones, integridad de datos, reglas de negocio, manejo de errores y restricciones de seguridad.
+El objetivo es mostrar, de forma resumida, el trabajo realizado, destacando escenarios relacionados con autenticación, autorización, validaciones, integridad de datos, reglas de negocio, manejo de errores y restricciones de seguridad.
 
 ---
 
