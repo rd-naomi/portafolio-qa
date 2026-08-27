@@ -15,7 +15,7 @@ Id.,Proyecto,Informador,Asignada a,Prioridad,Gravedad,Reproducibilidad,Versión 
 0031624,veterinaria,Equipo QA,Equipo QA,alta,mayor,siempre,,General,2023-09-15,,,,privado,2023-09-22,VET - Se permite ingresar clientes con Cedula no valida en el modulo de registro de clientes,asignada,abierta,
 0031291,veterinaria,Equipo QA,Equipo QA,alta,mayor,siempre,,General,2023-09-14,,,,público,2023-09-22,VET - Se permite ingresar un clientes con apellidos no validos en el modulo de registro de clientes,asignada,abierta,
 0031288,veterinaria,Equipo QA,Equipo QA,normal,mayor,siempre,,General,2023-09-14,,,,público,2023-09-22,VET - Se puede ingresar un cliente con Nombre no valido en el modulo de registro de clientes,asignada,abierta,
-0032002,veterinaria,Equipo QA,Equipo QA,urgente,bloqueo,a veces,,General,2023-09-15,,,,privado,2023-09-22,VET - Fallo en la visualización de la ventana ""Alta consulta"",cerrada,abierta,
+0032002,veterinaria,Equipo QA,Equipo QA,urgente,bloqueo,a veces,,General,2023-09-15,,,,privado,2023-09-22,VET - Fallo en la visualización de la ventana Alta consulta,cerrada,abierta,
 0031993,veterinaria,Equipo QA,Equipo QA,urgente,bloqueo,a veces,,General,2023-09-15,,,,privado,2023-09-22,VET - Fallo en el listado de consultas,cerrada,abierta,
 0031285,veterinaria,Equipo QA,Equipo QA,alta,mayor,siempre,,General,2023-09-14,,,,público,2023-09-22,VET - Cancelar alta de cliente en el modulo de registro de clientes.,cerrada,reabierta,
 0034935,veterinaria,Equipo QA,Equipo QA,baja,menor,siempre,,General,2023-09-22,,,,privado,2023-09-22,VET - Error ortográfico en el modulo de registro de Mascota.,asignada,abierta,
