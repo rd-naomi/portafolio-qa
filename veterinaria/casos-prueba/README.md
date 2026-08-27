@@ -5,8 +5,6 @@
 ![Enfoque](https://img.shields.io/badge/Enfoque-Funcional%20%2B%20Validaciones-success)
 ![Casos](https://img.shields.io/badge/Casos%20Totales-71-orange)
 
-Selección curada de casos de prueba representativos que demuestran cobertura integral, diseño de casos avanzado (partición de equivalencia, valores límite, casos pareados), validación de reglas de negocio y gestión de errores en un sistema de gestión veterinaria.
-
 ---
 
 ## Índice
