@@ -2,7 +2,7 @@
 
 Este documento presenta una selección de los casos de prueba más representativos del sistema ASUR, destacando escenarios funcionales, validaciones de reglas de negocio, restricciones, integridad de datos y casos de borde.
 
-El objetivo es mostrar, de forma resumida, el trabajo realizado en **Quality Assurance y Web Testing**, incluyendo validaciones positivas y negativas sobre los principales módulos de la aplicación.
+El objetivo es mostrar, de forma resumida, el trabajo realizado, incluyendo validaciones positivas y negativas sobre los principales módulos de la aplicación.
 
 ---
 
