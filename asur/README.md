@@ -1,6 +1,6 @@
-# Sistema de Gestión Institucional para ASUR — Proyecto de QA / Testing
+# Sistema de Gestión Institucional para ASUR
 
-Proyecto académico de **Quality Assurance** enfocado en la planificación, diseño, ejecución y análisis de pruebas sobre una plataforma de gestión institucional para la **Asociación de Sordos del Uruguay (ASUR)**.
+Proyecto académico enfocado en la planificación, diseño, ejecución y análisis de pruebas sobre una plataforma de gestión institucional para la **Asociación de Sordos del Uruguay (ASUR)**.
 
 El trabajo de QA abarcó tanto el **Backend mediante API REST** como la **Aplicación Web**, realizando dos ciclos principales de pruebas correspondientes a las versiones **v1.0 y v2.0**.
 
@@ -23,7 +23,7 @@ El sistema fue desarrollado como proyecto final académico.
 
 ---
 
-## Mi rol en QA
+## Mi rol
 
 Participé de forma integral en las diferentes etapas del proceso de Quality Assurance:
 
@@ -42,7 +42,7 @@ Participé de forma integral en las diferentes etapas del proceso de Quality Ass
 
 ---
 
-## Objetivos de QA
+## Objetivos
 
 El proceso de pruebas tuvo como principales objetivos:
 
@@ -81,7 +81,7 @@ El proceso de pruebas tuvo como principales objetivos:
 
 ---
 
-# Documentación de QA
+# Documentación
 
 ## Plan de pruebas
 
@@ -182,7 +182,7 @@ La matriz contempla:
 
 ## Informe final de pruebas
 
-El informe final reúne los principales resultados del proceso de QA, incluyendo métricas de ejecución, defectos encontrados por release y conclusiones sobre la calidad del producto.
+El informe final reúne los principales resultados del proceso, incluyendo métricas de ejecución, defectos encontrados por release y conclusiones sobre la calidad del producto.
 
 [📄 Ver informe final de pruebas](./informe-pruebas/informe-final-pruebas-asur.pdf)
 
