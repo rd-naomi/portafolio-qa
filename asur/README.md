@@ -2,7 +2,7 @@
 
 Proyecto académico enfocado en la planificación, diseño, ejecución y análisis de pruebas sobre una plataforma de gestión institucional para la **Asociación de Sordos del Uruguay (ASUR)**.
 
-El trabajo de QA abarcó tanto el **Backend mediante API REST** como la **Aplicación Web**, realizando dos ciclos principales de pruebas correspondientes a las versiones **v1.0 y v2.0**.
+El trabajo abarcó tanto el **Backend mediante API REST** como la **Aplicación Web**, realizando dos ciclos principales de pruebas correspondientes a las versiones **v1.0 y v2.0**.
 
 ---
 
