@@ -33,12 +33,7 @@ de <strong>QA y testing</strong>.
 
 ---
 
-<h2>🧪 Enfoque de QA</h2>
-
-<p>
-Mi principal interés dentro del área de tecnología es
-<strong>Quality Assurance y Software Testing</strong>.
-</p>
+<h2>🧪 Enfoque</h2>
 
 <p>
 A través de los proyectos de este repositorio he trabajado con:
